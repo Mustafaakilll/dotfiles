@@ -1,0 +1,13 @@
+[Client I] Waiting for feature flags to initialize the direct-to-kusto reporter
+[Client I] GitHub Codespaces version 1.13.5
+[Client I] isRunningInWeb: "false"
+[Client V] Initializing authentication
+[API I] Successfully signed in
+[Client:extension:d27a I] initializing
+[Client:extension:d27a I] creating LiveShare ConnectionHub, with type: "main thread"
+[Client:extension:d27a I] 1 connections used: > object #0: [object Object]
+[Client:extension:d27a:resolver I] created with protocol "codespaces"
+[RemoteExplorer I] Updating codespace performance info
+[Client I] Caching telemetry event: extension-activation
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:d27a:resolver V] disposing reason: 'vscode disposed the resolver', disposing 2 objects

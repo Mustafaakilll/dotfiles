@@ -1,0 +1,2 @@
+[2023-01-25 09:04:07.774] [GIT  ] [/home/mustafaakil/Documents/projects/work/pau-flutter] git log --format=%x3cr%x3e%x20%H -n3 -m -L 46,46:pau_mobil/.gitignore • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 46,46:pau_mobil/.gitignore • file pau_mobil/.gitignore has only 44 lines • 13 ms
+

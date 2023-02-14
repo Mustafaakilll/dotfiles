@@ -1,0 +1,130 @@
+  " SET
+  syntax on
+  filetype plugin indent on
+  set nowrap
+  set whichwrap+=<,>,[,]
+  set nohlsearch
+  set smartcase
+  set noswapfile
+  set noerrorbells
+  set expandtab
+  set nobackup
+  set tabstop=2 softtabstop=2 shiftwidth=2
+  set scrolloff=8
+  set incsearch
+  set nowritebackup
+  set clipboard+=unnamedplus
+  set backspace=indent,eol,start
+  set number
+  set relativenumber
+  set nocompatible
+  set cmdheight=2
+
+
+  call plug#begin('~/AppData/Local/nvim/plugged')
+
+  " UTILS
+  Plug 'sheerun/vim-polyglot'
+  Plug 'tpope/vim-commentary'
+  Plug 'tpope/vim-surround'
+  Plug 'tommcdo/vim-exchange'
+  Plug 'machakann/vim-highlightedyank'
+  
+  " File and Folder Management
+  Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+  Plug 'junegunn/fzf.vim'
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+  Plug 'preservim/nerdtree'
+  Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
+  " Snippets
+  Plug 'honza/vim-snippets'
+  Plug 'natebosch/dartlang-snippets'
+
+  " Language support
+  Plug 'tpope/vim-projectionist'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'jiangmiao/auto-pairs'
+
+  " Dart
+  Plug 'dart-lang/dart-vim-plugin'
+  Plug 'natebosch/vim-lsc'
+  Plug 'natebosch/vim-lsc-dart'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+  " Flutter
+  Plug 'thosakwe/vim-flutter'
+
+  " Git
+  Plug 'tpope/vim-fugitive'
+  " Plug 'vim-airline/vim-airline'
+
+  " Theme
+  Plug 'morhetz/gruvbox'
+  Plug 'joshdick/onedark.vim'
+
+  call plug#end()
+
+  colorscheme gruvbox
+
+  nnoremap <C-b> :NERDTreeToggle<CR>
+  nnoremap <leader>fa :FlutterRun<cr>
+  nmap <leader>rn <Plug>(coc-rename)
+
+  let mapleader=" "
+  let g:dart_format_on_save = 1
+  let g:dartfmt_options = ['--fix', '--line-length 80']
+
+
+  " Use <c-space> to trigger completion.
+  if has('nvim')
+	  inoremap <silent><expr> <c-space> coc#refresh()
+  else
+	  inoremap <silent><expr> <c-@> coc#refresh()
+  endif
+
+  let g:lsc_auto_map = v:true
+  let g:highlightedyank_highlight_duration = 200
+
+  let g:NERDTreeGitStatusWithFlags = 1
+
+  let g:coc_global_extensions = [
+			  \ 'coc-snippets',
+			  \ 'coc-flutter',
+			  \ 'coc-flutter-tools',
+			  \ 'coc-yaml',
+			  \ 'coc-json',
+			  \]
+
+
+  " Press `K` for documentation
+  nnoremap <silent> K :call <SID>show_documentation()<CR>
+  function! s:show_documentation()
+	  if (index(['vim','help'], &filetype) >= 0)
+		  execute 'h '.expand('<cword>')
+	  elseif (coc#rpc#ready())
+		  call CocActionAsync('doHover')
+	  else
+		  execute '!' . &keywordprg . " " . expand('<cword>')
+	  endif
+  endfunction
+
+  " Coc
+  nmap <silent> gd <Plug>(coc-definition)
+  nmap <silent> gy <Plug>(coc-type-definition)
+  nmap <silent> gi <Plug>(coc-implementation)
+  nmap <silent> gr <Plug>(coc-references)
+
+  xmap <leader>a  <Plug>(coc-codeaction-selected)
+  nmap <leader>a  <Plug>(coc-codeaction-selected)
+  nmap <leader>ac  <Plug>(coc-codeaction)
+  nmap <leader>qf  <Plug>(coc-fix-current)
+
+  noremap <Up> <Nop>
+  noremap <Down> <Nop>
+  noremap <Left> <Nop>
+  noremap <Right> <Nop>
+
+  nmap <C-P> :FZF<CR>
+
+

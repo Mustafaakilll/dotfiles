@@ -1,0 +1,944 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: pause
+current: 485
+time: 0.000000
+random: 1
+repeat: 0
+single: 1
+consume: 0
+crossfade: 5
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:AliFiru  htilal Official Video.mp3
+1:Athena - Kafama Göre.mp3
+2:AliFiru  htilal Official Video.mp3
+3:Athena - Kafama Göre.mp3
+4:Athena - Kime Ne.mp3
+5:Baba Zula - Gerekli şeyler (feat. Özkan Uğur).mp3
+6:Badem - Gece Sesleri.mp3
+7:Bagzilari - Gitme Soğukta.mp3
+8:Bagzilari - Yoldan Çıkıcam.mp3
+9:Bağzıları - Zaten Kırılmış Bir Kızsın.mp3
+10:Barış Akarsu - Yaz Demedim.mp3
+11:Batu Akdeniz, Rana Türkyılmaz - Ona Gitme (Akustik).mp3
+12:Batuhan Kordel - Batuhan Kordel - Sıcak Şarap.mp3
+13:Baturalp - Ay Bile Baksa Gözlerine Tutulur.mp3
+14:Bedük - Intergalactic.mp3
+15:Belki_Bir_Gün.mp3
+16:Berk Baysal - Yaralarını Ben Sarayım.mp3
+17:Birkan Nasuhoğlu - Aramızda Engeller.mp3
+18:Bu_Havada_Gidilmez.mp3
+19:Burak Can Bayar - Sen Olmadan Önce.mp3
+20:BÜYÜK EV ABLUKADA - Arayan Bulur.mp3
+21:Büyük Ev Ablukada - HEPSİNE NE FENA.mp3
+22:Çağan_Şengül_-_Delirdim.mp3
+23:Çağan_Şengül_&_Yasir_Miy_-_Seni_Kaybettim.mp3
+24:Çağan_Şengül_&_Yasir_Miy_-_Tenha.mp3
+25:Çağan_Şengül_&_Yasir_Miy_&_Lalfizu_-_Yıldızlara_(Official_Video).mp3
+26:Can Bonomo - Bardak Taşıyor.mp3
+27:Can Bonomo - Gazapistan.mp3
+28:Can Bonomo - Kal Bugün.mp3
+29:Can Bonomo - Tastamam.mp3
+30:Can Koç - Gökyüzünü Tutamam.mp3
+31:Can Koç - Salına Salına Gel.mp3
+32:Can Koç - Senin Gibi.mp3
+33:Can_Kazaz_-_Keşke_Uyuyabilsem.mp3
+34:Can_Kazaz_-_Sürekli_Dert_(Acoustic)_ft._Deniz_Özdoğru.mp3
+35:Can_Kazaz_-_Sürsün_Bahar.mp3
+36:Can_Ozan_ve_Deniz_Tekin_-_Baktın_Olmuyo.mp3
+37:Canozan - Ön Koltuk.mp3
+38:Canozan, Melis Yelman, Ufuk Kevser - Bi' Sorunum Var.mp3
+39:Cem Adrian, Emir Can Igrek - Bana Unutmayı Anlat.mp3
+40:Cem Kısmet - Haram Geceler.mp3
+41:Cem_Adrian_-_Kum_Gibi_(Çukur_Canlı_Performans).mp3
+42:Ceren_Gündoğdu_-_Ben_Hep_Seni_Sevdim.mp3
+43:Ceren_Gündoğdu_-_Kayıp.mp3
+44:CES Yapım - Matmazel - Başka Bir Şey (Official Music Video).mp3
+45:Ceylan Ertem - Zalım.mp3
+46:Cüneyt Diktaş - Mırın Kırın.mp3
+47:Dedublüman - Bir İhtimal Halim.mp3
+48:Dedublüman - Dedublüman - Geçmesin Günümüz (Müzeyyen Senar Cover).mp3
+49:Demir Demirkan - Gitti Gider.mp3
+50:Derya Uluğ _ Sana Çıkıyor Yollar.mp3
+51:Dolu Kadehi Ters Tut - Dolu Kadehi Ters Tut - #27.mp3
+52:Dolu Kadehi Ters Tut - Dolu Kadehi Ters Tut - Hiç İyi Değilim (Official Audio).mp3
+53:Dolu Kadehi Ters Tut - Dolu Kadehi Ters Tut ft. Seda Erciyes - Yüksek.mp3
+54:Dolu Kadehi Ters Tut - Islansın.mp3
+55:Dolu Kadehi Ters Tut - Yangın.mp3
+56:Dolu_Kadehi_Ters_Tut_-__22.mp3
+57:Dolu_Kadehi_Ters_Tut_-_Gizemli_Yolculuk_(Official_Audio).mp3
+58:Dolu_Kadehi_Ters_Tut_-_Yapma_N'olursun_(PBB).mp3
+59:Duman - Bu Akşam (Akustik).mp3
+60:Duman - Dibine Kadar.mp3
+61:Duman - Hayatı Yaşa.mp3
+62:Duman - Köprüaltı.mp3
+63:Ege Can Sal - Başa Sar.mp3
+64:Ekin Beril - Uzayın Dibi.mp3
+65:Emir Can Igrek - Felfena.mp3
+66:Emir Can İğrek - Saman Sarısı.mp3
+67:Emre Aydin - Afili Yalnızlık.mp3
+68:Emre Aydın - Beni Vurup Yerde Bırakma.mp3
+69:emre aydın - Her Şey Biraz Hala Sen.mp3
+70:Emre Aydın - Sen Beni Unutamazsın.mp3
+71:Erdem Yener - Bana Yalan Söylediler.mp3
+72:Esin İris - Öp Diye.mp3
+73:Eskitilmiş Yaz - Gece Saklar Bizi.mp3
+74:Eskitilmiş Yaz - Uyursam Geçer Mi_.mp3
+75:Evdeki Saat - Evdeki Saat - Dibi Ne Kadar (Official Video).mp3
+76:Feride Hilal Akın, Sheyh Ree - İstanbul'da Aşk.mp3
+77:Flört - Lan Oğlum Böyle Olmaz.mp3
+78:Gaye Su Akyol, Pick a Piper - Berduş (Pick a Piper Remix).mp3
+79:Göç.mp3
+80:Gökhan Türkmen - Aşk.mp3
+81:Gökhan Türkmen - Mahşer.mp3
+82:Gökşin_Derin_-_Ay_Işığında.mp3
+83:GRİ__-_Korkak.mp3
+84:Gripin - Belki Çok Da Şey Yapmamak Lazım.mp3
+85:Gripin - Beni Boş Yere Yorma.mp3
+86:Gripin - Yalnızlığın Çaresini Bulmuşlar.mp3
+87:Güler_Özince_-_Öyle_Olsa_(Official_Video).mp3
+88:Güney Marlen - Kuscam Böyle (feat. Teoman).mp3
+89:Havana.mp3
+90:Hey! Douglas - Ayva Cicek Acmis.mp3
+91:Hey! Douglas - Duruyor Dünya.mp3
+92:IKILEM - BIR SEBEBI VAR .mp3
+93:İkilem - Bu Saatten Sonra.mp3
+94:İkiye On Kala - İkiye On Kala - Al Beni Bas Yaralarına.mp3
+95:İkiye On Kala - İkiye On Kala - Bütün İstanbul Biliyo.mp3
+96:İkiye On Kala - İkiye On Kala - Kafamda Kentsel Dönüşümler.mp3
+97:İkiye On Kala - İkiye On Kala- Bana Gel Deme.mp3
+98:İrem_gürdal_sarmaşık.mp3
+99:İstanbul_İstanbul_Olalı.mp3
+100:Jabbar - Cesaretsizce Olmuyor.mp3
+101:Jabbar - Sen Git.mp3
+102:Jakuzi - Istedigin Gibi Kullan.mp3
+103:Jakuzi - Jakuzi - Koca Bir Saçmalık.mp3
+104:Kaan Boşnak - Barbar.mp3
+105:Kaan Bosnak - İçi Dolu Her Şeyim.mp3
+106:Kaan Boşnak - Kaan Boşnak - Benimle Kayboldun.mp3
+107:Kaan_Boşnak_-_Ne_farkeder.mp3
+108:Kadirhan_Ayter_-_Delip_Geçer.mp3
+109:Kahraman Deniz - Böyle Sever.mp3
+110:Kahraman Deniz - Suç Mahalli.mp3
+111:Kalben - Çek.mp3
+112:Kalben - Sadece.mp3
+113:Karakter - Geçenler.mp3
+114:Kargo - Yıldızların Altında.mp3
+115:Kendimden Hallice - Neye Göre Yanlış.mp3
+116:KOFN - Bi' Tek Ben Anlarim.mp3
+117:Kolpa - Beni Aşka İnandır.mp3
+118:Kolpa - Böyle Ayrılık Olmaz.mp3
+119:Kolpa, Yaprak Çamlıca - Unutmadım.mp3
+120:Koray Avcı - Aşk Sana Benzer.mp3
+121:Lalalar - Yamyam.mp3
+122:Mabel Matiz - A Canım.mp3
+123:Madrigal - Madrigal - Ne Zamandır Sendeyim.mp3
+124:maNga - Bir Kadın Çizeceksin.mp3
+125:maNga - Bitti Rüya.mp3
+126:maNga - Dünyanın Sonuna Doğmuşum.mp3
+127:maNga - Yad Eller.mp3
+128:Mavi Gri - Altüst Olmuşum (Canlı).mp3
+129:Mavi Gri - Çok Özledim.mp3
+130:Mavi Gri - Mavi Gri - Altüst Olmuşum.mp3
+131:Mavi Gri - Mavi Gri - Dünyanın En Güzel Kızı (Lyrics Video).mp3
+132:Melek Mosso - Hayatım Kaymış.mp3
+133:Melike_Sahin_-_Kimin_Izdırabı.mp3
+134:Melike_Şahin_-_Sevmek_Suçsa_Suçluyum.mp3
+135:Mentra - Her Yol Uçurum.mp3
+136:MFÖ - Olduramadım.mp3
+137:Mirkelam - Asuman Pansuman.mp3
+138:Model - Mey.mp3
+139:Model - Pembe Mezarlık.mp3
+140:Mor ve Ötesi - Bir Derdim Var.mp3
+141:Mor ve Ötesi - Cambaz.mp3
+142:mor ve ötesi - Dünyaya Bedel.mp3
+143:mor ve ötesi - Forsa.mp3
+144:Morphia - Duyar Mısın.mp3
+145:Müge_Emirgil_-_Yolculuk.mp3
+146:Multitap - Arka Koltuk.mp3
+147:Multitap - Battaniyem.mp3
+148:Musa_Eroğlu_&_Cem_Adrian_-_Yolun_Sonu_Görünüyor.mp3
+149:MuzikPlay - Can Bonomo - Tastamam (Official Video).mp3
+150:Nabıcaz - Sorun Var.mp3
+151:Nazan_Öncel_-_Göç.mp3
+152:Neon_Jungle_-_Braveheart_(Official_Live_Performance).mp3
+153:netd müzik - Kolpa - Gurur Benim Neyime.mp3
+154:Neva - Sana Teslim Oldum.mp3
+155:Nil Karaibrahimgil - Nil Karaibrahimgil - Diskotek.mp3
+156:Nova Norda - Nova Norda - Kuzeye Kaç! (Official Video).mp3
+157:Ogün Sanlisoy - Saydim.mp3
+158:Omark - Eşarbını Yan Bağlama.mp3
+159:Onur_Can_Özcan_-_Hüzün_Hoş_Geldin.mp3
+160:Onur_Can_Özcan-Çıkmaz_Sokak.mp3
+161:Ozbi_feat._Melek_Mosso_-_Hadi_Gittik_(Single)__BunlardanBıktımBen.mp3
+162:Özge_Ertal_-_Bir_Derdim_Var.mp3
+163:Palmiyeler - Orman.mp3
+164:Pamela - Istanbul.mp3
+165:Papyon - Aya Bak.mp3
+166:pavyonberlin - Yokuş.mp3
+167:Pera - Ağla.mp3
+168:Pera - Sensiz Ben.mp3
+169:Pera band - PERA - Seni Seviyorum (Official Video).mp3
+170:Pera band - PERA - Tükeneceğiz (Official Video).mp3
+171:Pera band - PERA - Yağmur (Official Video).mp3
+172:PERA_-_Ayaz_(Lyric_Video).mp3
+173:PERA_-_Belki_de_Aşık_Oldun_(Official_Video).mp3
+174:PERA_-_Duvarlar_(Lyric_Video).mp3
+175:PERA_-_Kaçmak_Ne_Mümkün_(Lyric_Video).mp3
+176:PERA_-_Öyle_Çok_(Lyric_Video).mp3
+177:PERA_-_Son_Bir_Defa_(Official_Video).mp3
+178:PERA_-_Unutamam_(Lyric_Video).mp3
+179:PERA_-_Yandım_(Official_Video).mp3
+180:Pinhani - Bilir O Beni.mp3
+181:Pinhani - Hele Bi Gel.mp3
+182:Pinhani - Pinhâni - Kimse Görmesin Seni.mp3
+183:Raviş - Güzel Kadın.mp3
+184:Redd - Masal.mp3
+185:Rei 6 - Buğusunda Kaybolurken.mp3
+186:RockA - RockA _ Ölürüm Sana 🔥 [Official].mp3
+187:Rubato_&_Gazapizm_-_Ölüler_Dirilerden_Çalacak.mp3
+188:Sahte Rakı - Yaşamak İstemem.mp3
+189:SATTAS - Eskitilmiş.mp3
+190:Şebnem Ferah - Vazgeçtim Dünyadan.mp3
+191:Şehinşah - Yaz Yağmurum (feat. Onur Betin).mp3
+192:Seksendört - Hayir Olamaz.mp3
+193:Seksendört - Kendime Yalan Söyledim.mp3
+194:Seksendört - Ölürüm Hasretinle.mp3
+195:Seksendört - Yorma.mp3
+196:Sena Şener - Çok Geç Kaldın.mp3
+197:Sena Şener - Porselen Kalbim.mp3
+198:Sena Şener - Sevmemeliyiz.mp3
+199:Sezer Sarıgöz - Ne Ay Geceden.mp3
+200:Soft Analog - Ne Kadar Uzağım.mp3
+201:Son Feci Bisiklet - Galiba Sevmiyorlar.mp3
+202:Son Feci Bisiklet - Son Feci Bisiklet - Bu Kız.mp3
+203:Son Feci Bisiklet - Uzaydan Geldiğine Göre Yorgun Olmalısın.mp3
+204:Son_Feci_Bisiklet_-_Çar_Bomba_(Lyric_Video).mp3
+205:Son_Feci_Bisiklet_-_Galiba_Sevmiyorlar.mp3
+206:Sufle - Pus.mp3
+207:Teoman - N'apim Tabiatım Böyle.mp3
+208:Teoman - O Yaz.mp3
+209:Teoman - Renkli Rüyalar Oteli.mp3
+210:Teoman - Teoman - Kalbin Yok mu_ (Official Video).mp3
+211:TNK - Aşkı Harcamanın 80 Yolu.mp3
+212:Tugkan - Sen Benim.mp3
+213:Ufuk Beydemir - Ay Tenli Kadın.mp3
+214:Ufuk Beydemir - Ben Bir Kek Miyim_.mp3
+215:Ufuk Beydemir - Ellerin Uzansa.mp3
+216:Ufuk Beydemir - Yüreğimdesin (Akustik).mp3
+217:Ufuk Çalışkan - Ufuk Çalışkan - Düğme.mp3
+218:Ufuk Çalışkan - Unutmak İstiyorum.mp3
+219:Umut Kaya - Bana Kelime Yapma.mp3
+220:Umut Kaya - Mor Yazma.mp3
+221:Umut Kaya - Yaşamak Çok Güzel Bi' Şey.mp3
+222:Various Artists - Bağlasan Durmaz.mp3
+223:Vazgeç_Gönül.mp3
+224:Vera - Aşk Yarası.mp3
+225:Vera - Kir pas.mp3
+226:Vera - Saklanır Nisan.mp3
+227:YaDa - Yollar.mp3
+228:Yaşlı Amca - Yaşlı Amca - Giderdi Hoşuma.mp3
+229:Yaşlı Amca - Yıldızlara Bak.mp3
+230:yirmi7 - Gözlerin Yaman.mp3
+231:yirmi7 - Sokak Lambası.mp3
+232:yirmi7 - yirmi7 - Muhtemel Aşk.mp3
+233:Yoklukta Gider - Banaysa Çıkmazlar (V2).mp3
+234:Yorma.mp3
+235:Yüksek Sadakat - Haydi Gel İçelim.mp3
+236:Yüksek Sadakat - Kafile.mp3
+237:Yuzyuzeyken Konusuruz - Gençliğimi Geri Ver.mp3
+238:Yüzyüzeyken Konuşuruz - Kendi Evimde Deplasmandayım.mp3
+239:Yuzyuzeyken Konusuruz - Sandal.mp3
+240:Yüzyüzeyken Konuşuruz - Uykusuz ve Dengesiz.mp3
+241:Yuzyuzeyken_Konusuruz_-_Boş_Gemiler.mp3
+242:Yuzyuzeyken_Konusuruz_-_Sandal.mp3
+243:Zakkum - Hatıran Yeter.mp3
+244:Zakkum - Müsaade Senin.mp3
+245:Zeynep_Bastık,_Anıl_Piyancı_-_Bırakman_Doğru_Mu.mp3
+246:Karlos Yaren - Yanarım.mp3
+247:Sil_Baştan.mp3
+248:Chandelier.mp3
+249:Aşk Kitabı.mp3
+250:Erkekler_Ağlamaz.mp3
+251:Zakkum - Anason.mp3
+252:Back_To_You.mp3
+253:Start_Again.mp3
+254:Böyle_Sever.mp3
+255:Doğal_Afetim.mp3
+256:Make_You_Feel_My_Love.mp3
+257:Zaferlerim.mp3
+258:Lovesong.mp3
+259:One_And_Only.mp3
+260:Someone_Like_You.mp3
+261:Garezi_Var.mp3
+262:I_Miss_You.mp3
+263:Send_My_Love_(To_Your_New_Lover).mp3
+264:Hoş_Geldin_Ayrılığa_(feat._Ece_Seçkin).mp3
+265:365.mp3
+266:366.Gün.mp3
+267:Gecelerim.mp3
+268:Lapa_Lapa.mp3
+269:Mavi - Aç Kapıyı Gir İçeri.mp3
+270:Acelesi_Yok.mp3
+271:Ağrı.mp3
+272:Medet.mp3
+273:Sabır.mp3
+274:Cesaretin_Var_mı_Aşka.mp3
+275:Ağır_Roman.mp3
+276:Aşk_Yasal_Cinayet.mp3
+277:Beyaz_Skandalım.mp3
+278:Franco.mp3
+279:Kaptan.mp3
+280:Kır_Düğünü.mp3
+281:Müzik_Kutusu.mp3
+282:Yangınlı_Şiir.mp3
+283:Sarı_Laleler.mp3
+284:Ah Bu Şarkıların Gözü Kör Olsun (feat. Hande Mehan)(MP3_160K)_1.mp3
+285:Bir_Ay_Doğar.mp3
+286:Kendime_Yalan_Söyledim.mp3
+287:Aklım_Hep_Firarda.mp3
+288:Akşam_Olur_Karanlığa_Kalırsın.mp3
+289:Elfida.mp3
+290:Sonsuz.mp3
+291:Ufuk_Beydemir_-_Ölüme_Yalvardım_(Akustik).mp3
+292:Dayanamam_(feat._Özlem_Tekin).mp3
+293:Hadi_Ben_Güldür.mp3
+294:2013.mp3
+295:Bodrum.mp3
+296:Dinle_Beni_Bi'.mp3
+297:Esen.mp3
+298:Onlar_da_Yansın.mp3
+299:Uykusuz_ve_Dengesiz.mp3
+300:Yıkılma_Sakın.mp3
+301:Ali Ayşe'yi Seviyor.mp3
+302:Son_Bir_Defa.mp3
+303:Cem Adrian _ Aylin Aslım - Herkes Gider Mi _(MP3_160K)_1.mp3
+304:All of me.mp3
+305:Aldım Başımı Gidiyorum.mp3
+306:Ateşle_Oynama.mp3
+307:Do_I_Wanna_Know.mp3
+308:Why'd_You_Only_Call_Me_When_You're_High.mp3
+309:Anısı Kalmıştır.mp3
+310:Anlam.mp3
+311:Bana_Su_Gönder_Oralardan.mp3
+312:Ellerinden_Öperim.mp3
+313:Göçmen_Kuşun_Şarkısı.mp3
+314:Omuzunda_Kuşlar.mp3
+315:Sancı.mp3
+316:Sonunda.mp3
+317:Uzak.mp3
+318:Yağmur_Yağsa.mp3
+319:Yolculuk.mp3
+320:Olmaz.mp3
+321:Bana_Öyle_Bakma.mp3
+322:Aşk Dediğin.mp3
+323:Aşk_Payı_(Stüdyoda).mp3
+324:Aşk_Tadında.mp3
+325:Affet.mp3
+326:Nilüfer.mp3
+327:Gurur_Benim_Neyime.mp3
+328:Aşk_Zamanı.mp3
+329:Unutamam_Seni.mp3
+330:Aşkınla_Yandım_(Turk_Rock_Collection).mp3
+331:Resit Kemal - Aslında.mp3
+332:Ozledim_Seni.mp3
+333:Ayrılık_Acı_Birşey.mp3
+334:Barış_Akarsu_-_Rüzgar.mp3
+335:Ayrılık_Zor.mp3
+336:Azad.mp3
+337:Back_To_Black.mp3
+338:Uyan_(feat._Vega).mp3
+339:Her_Akşam_'Sarhoş'.mp3
+340:Defans_-_Konuş_Benimle.mp3
+341:Bana_Sorma_(feat._Melek_Mosso).mp3
+342:Bana_Yalan_Söylediler_(Film_Olmuş_Şarkılar).mp3
+343:Kül_(Demli_Versiyon).mp3
+344:Seni_Unutmaya_Ömrüm_Yeter_mi_(feat._Pamela_Spence).mp3
+345:Sesinde_Aşk_Var.mp3
+346:Kalabalıklar.mp3
+347:Bu_Yüzden.mp3
+348:Kırmış_Kalbini.mp3
+349:Belki_De_Dönerim.mp3
+350:Ben_Bana.mp3
+351:Aşkın_Olayım.mp3
+352:Ben_Bir_Tek_Kadın_(Adam)_Sevdim.mp3
+353:Geceler_Kara_Tren.mp3
+354:Ki_Sen.mp3
+355:Öyle_Ki_Hasretimsin.mp3
+356:Ben_Sende_Yandım.mp3
+357:Ben_Yoruldum_Hayat.mp3
+358:Beni_Boş_Yere_Yorma.mp3
+359:Beni_Vur.mp3
+360:Hayko Cepkin - Aldırma Gönül.mp3
+361:Beni_Vurup_Yerde_Bırakma.mp3
+362:BERGEN- SEN AFFETSEN BEN AFFETMEM(MP3_160K)_1.mp3
+363:Gemiler.mp3
+364:Bir.mp3
+365:Seytan_Bunun_Neresinde.mp3
+366:Bir_Bilebilsen.mp3
+367:Mor ve Otesi - Bir Derdim Var.mp3
+368:Al Gece Yarılarımı Benden.mp3
+369:Dile_Kolay_Kalbe_Değil.mp3
+370:İkimiz_de_Yorgunuz.mp3
+371:Gitme_Kal_Bu_Şehirde.mp3
+372:Halledebilirdik.mp3
+373:Zamanın_Dışında,_Boşluğun_İçinde.mp3
+374:Mihriban.mp3
+375:Model - Bir Pazar Kahvaltısı.mp3
+376:Bir_Yaz_Daha_Bitiyor.mp3
+377:Söyleyin.mp3
+378:Black_Sea.mp3
+379:Boğaz'da_Yangın_Var.mp3
+380:Era_Istrefi_-_Bonbon_(Official_Video).mp3
+381:Roses.mp3
+382:Bring Me The Horizon - Parasite Eve (Official Video)(MP3_160K)_1.mp3
+383:Bu_Can_Senin.mp3
+384:Cemil_Demirbakan_-_Bu_Hesap_Tutar_Mı_(Official_Video).mp3
+385:Bu_Kente_Bir_Daha_Gel.mp3
+386:Bu_Kız.mp3
+387:Bugün_Içicem.mp3
+388:Eski_Bahar_Şarkısı_(feat._Gözde_Öney)_(Sen_Oku).mp3
+389:Tastamam.mp3
+390:Ikiye On Kala - Bütün Istanbul Biliyo.mp3
+391:Küçük_Sevgilim.mp3
+392:İntizar - Büyük İnsan(MP3_160K)_1.mp3
+393:Çal_Kemancı.mp3
+394:Cam_Güzelleri_(Hüsnü_Arkan)_Video_Klip_[4K]_2019.mp3
+395:Hoşçakal.mp3
+396:Can Ozan - Sar Bu Şehri(MP3_160K)_1.mp3
+397:Canavar.mp3
+398:Canimin_Yarisi.mp3
+399:Araf (Canlı).mp3
+400:Cambaz_(Canlı).mp3
+401:Candan Ercetin - Yalan.mp3
+402:Onlar_Yanlış_Biliyor.mp3
+403:çatıkatı - biri seni(MP3_160K)_1.mp3
+404:Cihan_Mürtezaoğlu_&_Pinhâni_-_Bir_Beyaz_Orkide.mp3
+405:Cem Adrian   Neredesin Sen(MP3_160K)_1.mp3
+406:Cem Adrian - Ben Seni Çok Sevdim (Official Audio)(MP3_160K)_1.mp3
+407:Cem Adrian - Beni Affet Bu Gece (Official Audio)(MP3_160K)_1.mp3
+408:Cem Adrian - Değmen Benim (Live)(MP3_160K)_1.mp3
+409:Cem Adrian - Ela Gözlüm (Official Audio)(MP3_160K)_1.mp3
+410:Cem Adrian - Mutlu Yıllar(MP3_160K)_1.mp3
+411:Deniz_Üstü_Köpürür.mp3
+412:Bu_Son_Olsun.mp3
+413:Ceyl_an Ertem - Uçurtma ft. Cihan Murtezaoglu(MP3_160K)_1.mp3
+414:Ağla_Sevgili_Yurdum.mp3
+415:Çıkmaz_Sokak.mp3
+416:Dokunduğun_Gibi.mp3
+417:All We Know.mp3
+418:Closer.mp3
+419:Don't_Let_Me_Down.mp3
+420:Melek Mosso - Keklik Gibi(MP3_128K)_1.mp3
+421:Damla_Damla.mp3
+422:Dar_Dünya_Bana.mp3
+423:Eksik_Bir_Şey.mp3
+424:Yan_Kalbim.mp3
+425:Öyle_Dertli.mp3
+426:Yürek.mp3
+427:Defoluyorum.mp3
+428:Delacey_-_Dream_It_Possible.mp3
+429:Sezen Aksu - Masum Değiliz.mp3
+430:Delinin_Yıldızı.mp3
+431:Perdenin Ardındakiler - Derdime.mp3
+432:Deva_Bize_Sevişler.mp3
+433:DİDOMİDO feat. EGLO G  - NİMET(MP3_160K)_1.mp3
+434:Benim_Tatlı_Kanserim.mp3
+435:Buzdan_Şato.mp3
+436:Çürüsün_Gelinliğim.mp3
+437:Değmesin_Ellerimiz_(Akustik).mp3
+438:Değmesin_Ellerimiz.mp3
+439:Karadul.mp3
+440:Makyaj.mp3
+441:Model - Bir Melek Vardı.mp3
+442:Pembe_Mezarlık.mp3
+443:Şey..._Belki_!.mp3
+444:Yalnızlık_Senfonisi.mp3
+445:Giderim.mp3
+446:Garibim.mp3
+447:hostage.mp3
+448:Nereden_Bileceksiniz.mp3
+449:Söyle.mp3
+450:Dostum_Değil_Uykular.mp3
+451:Dibine_Kadar.mp3
+452:Helal_Olsun.mp3
+453:Senden_Daha_Güzel.mp3
+454:Adamlar - Benden Bana.mp3
+455:Adamlar - Derine İndik.mp3
+456:Adamlar - Doldum.mp3
+457:Adamlar - Felek.mp3
+458:Hoşça_Kal.mp3
+459:Dur.mp3
+460:Ben_Bir_Küçük_Harfim.mp3
+461:Sevdan_Bir_Ates.mp3
+462:Hapis_De_Yatarım.mp3
+463:Aşk Bitti.mp3
+464:Ece Seçkin - Olsun(MP3_160K)_1.mp3
+465:Efsaneyiz.mp3
+466:Eksik_Kaldım_(feat._Çağan_Şengül).mp3
+467:Chantaje.mp3
+468:Bu_Sabah_Yağmur_Var_İstanbul'da.mp3
+469:Ele_Güne_Karşı.mp3
+470:Güllerin_İçinden.mp3
+471:Yalnızlık_Ömür_Boyu.mp3
+472:Alelade.mp3
+473:Elimde_Dünya.mp3
+474:Fatma Turgut - Beni Tutmayın.mp3
+475:Günleri_Bağlarken.mp3
+476:Maya_Tutmaz.mp3
+477:Mübadele_Günleri.mp3
+478:Öpme_Beni.mp3
+479:Sen_Diyorum.mp3
+480:Unuttum_Gitti.mp3
+481:Çatı_Katı.mp3
+482:Ağla.mp3
+483:Seni_Kaybettiğimde.mp3
+484:Esen- Yüzyüzeyken Konuşuruz (Ayça Özefe Cover)(MP3_160K)_1.mp3
+485:Yıldızları_Yakalamak.mp3
+486:Adamlar - Kapısı Kapalı (Official Audio).mp3
+487:Adamlar - Koşmadan (Official Audio).mp3
+488:Adamlar - Utanmazsan Unutmam (Official Audio).mp3
+489:Koca_Yaşlı_Şişko_Dünya.mp3
+490:Düşersem_Tut_Beni.mp3
+491:Mutluyum_Ama_Birazdan_Geçer.mp3
+492:Gitme_Sana_Muhtacım.mp3
+493:Simdi_Uzaklardasin.mp3
+494:Bazı_Şeyler_Telefonda_Eksik_Anlatılır.mp3
+495:Iyi_Ve_Güzel_Kadınlar_Hep_Ağlar.mp3
+496:Üzgünüm_Bu_Defa_Pek_Hoş_Değil_Konu.mp3
+497:Yüzyüzeyken_Konuşuruz_-_Ateş_Edecek_Misin_(Official_Video).mp3
+498:Yüzyüzeyken_Konuşuruz_-_Ölmemişiz_(Official_Video).mp3
+499:Yüzyüzeyken_Konuşuruz_-_Takımdan_Ayrı_Düz_Koşu_(Official_Audio).mp3
+500:Yüzyüzeyken_Konuşuruz_-_Yaz_Geçer_(Official_Video).mp3
+501:Jehan Barbur - Selvi Boylum Al Yazmalım(MP3_160K)_1.mp3
+502:Believer.mp3
+503:Next_To_Me.mp3
+504:Thunder.mp3
+505:Whatever_It_Takes.mp3
+506:Faded.mp3
+507:All Roads Lead Home (Hobbs & Shaw Remix).mp3
+508:Fener.mp3
+509:GÜNEŞ_YERİNDE.mp3
+510:Fırça.mp3
+511:Flames.mp3
+512:Marshmello_&_Anne-Marie_-_FRIENDS_(Music_Video)__OFFICIAL_FRIENDZONE_ANTHEM.mp3
+513:Gamzendeki_Çukur_(feat._Hayko_Cepkin).mp3
+514:Geber.mp3
+515:Bana_Bir_Şarkı_Söyle.mp3
+516:Ben_Öldüm.mp3
+517:Gece_Gibi_Gönlün.mp3
+518:Bağzıları_-_Allı_Turnam.mp3
+519:Evleniyormuşsun_Bugün.mp3
+520:Unut_Beni.mp3
+521:Onur Akın - Geceyi Sana Yazdım.mp3
+522:Geçmiş_Zaman.mp3
+523:Gel_Sevelim.mp3
+524:Gelecekle_Randevum_Var.mp3
+525:Gidersen_(Saz_Söz_Mavi).mp3
+526:Ölünce_Sevemezsem_Seni.mp3
+527:Sensiz_Ben.mp3
+528:Gizli_Aşk_(feat._Hakan_Tunçbilek).mp3
+529:Göksel - Kurşuni Renkler(MP3_160K)_1.mp3
+530:Bekle_Dedi_Gitti_(Çizik).mp3
+531:Denize_Doğru.mp3
+532:Gölgen_Yeter.mp3
+533:Gömün_Beni_Çukura.mp3
+534:Pişman_Değilim.mp3
+535:Nilipek._-_Gözleri_Aşka_Gülen.mp3
+536:Greta Van Fleet - Age of Machine (Official Video)(MP3_160K)_1.mp3
+537:Mucize.mp3
+538:Böyle_Kahpedir_Dünya.mp3
+539:Bahsetmem_Lazım.mp3
+540:Guns N_ Roses - November Rain(MP3_160K)_1.mp3
+541:Hatıran_Yeter.mp3
+542:Sevmeden_Geçer_Zaman_(feat._Şebnem_Ferah).mp3
+543:Kahraman_Deniz_-_Hayat-Memat_Meselesi_(Lyrics___Şarkı_Sözleri).mp3
+544:Ben_Seni_Sevduğumi.mp3
+545:Arada Bir.mp3
+546:Hele_Bi_Başla.mp3
+547:Hep_Oturup_Bekledim.mp3
+548:Ben_Ne_Yangınlar_Gordüm.mp3
+549:Gidiyorum_Yolcu_Et.mp3
+550:Gökyüzünde.mp3
+551:Gül_Senin_Tenin.mp3
+552:Her_Şey_Senle.mp3
+553:Her_Şeyim.mp3
+554:Gazapizm_-_Heyecanı_Yok_(Official_Video)__HeyecanıYok.mp3
+555:Mutluluk_Reklamı.mp3
+556:Unutulacak_Dünler.mp3
+557:Human.mp3
+558:Küçük_Bir_Aşk_Masalı.mp3
+559:Ne_Tuhaf_(feat._İlhan_Şeşen).mp3
+560:Ellerimde_Çiçekler.mp3
+561:İlkbaharda_Kıyamet.mp3
+562:En_Doğru_Zaman.mp3
+563:İnşallah.mp3
+564:Yara_Bende.mp3
+565:Beni_Al.mp3
+566:Unutuldular.mp3
+567:Indila - Dernière Danse (Clip Officiel)(MP3_160K)_1.mp3
+568:Sendin_Düşmanım.mp3
+569:Sonraki_Gün.mp3
+570:Güneşli_Bahçe.mp3
+571:Işıkları_Söndürseler_Bile.mp3
+572:Barış_Akarsu_-_Islak_Islak.mp3
+573:Barış_Akarsu_-_Mavi.mp3
+574:İnsan_Sever_Bir_Kere.mp3
+575:İstanbul'da_Sonbahar.mp3
+576:Iste_Oyle_Bir_Sey.mp3
+577:İstemem_Söz_Sevmeni.mp3
+578:Gaye_Su_Akyol_-_Bir_Yaralı_Kuştum_(Official_Video).mp3
+579:Serin_-_İyi_Gelir_Mi.mp3
+580:İyileşmiyor.mp3
+581:Alain_Delon.mp3
+582:Gözlerine_Teslimim.mp3
+583:Köşe_Yastığı.mp3
+584:Malum.mp3
+585:Sevişmeden_Uyumayalım.mp3
+586:Vur_Kadehi.mp3
+587:Dans_Et.mp3
+588:Yağmurlar.mp3
+589:Baytar.mp3
+590:Kal.mp3
+591:Kal_Ölene_Kadar.mp3
+592:Kalbe_Kördüğüm.mp3
+593:Haydi_Söyle.mp3
+594:Kalbim_Çukurda_(feat._Gazapizm)_(Live).mp3
+595:Kandırmışlar_Aşk_Diye.mp3
+596:Kara_Orman.mp3
+597:Gün_Gelir.mp3
+598:Karanfil_Kokuyor_Cigaram.mp3
+599:Kargalar.mp3
+600:Sebepsiz_Savaş.mp3
+601:Vera_-__Sokaklar_(Official_Video).mp3
+602:Karsu - Jest Oldu(MP3_160K)_1.mp3
+603:Haydi_Gel_İçelim.mp3
+604:Katil_&_Maktül.mp3
+605:Beni_Sen_İnandır.mp3
+606:Geri_Dönemem.mp3
+607:Kelebekler.mp3
+608:Mayın_Tarlası.mp3
+609:Neden_Bana_Aşk_Şarkısı_Yazan_Çıkmaz.mp3
+610:Sızı.mp3
+611:Yarım.mp3
+612:Deniz_Anlatıyor_Mu_Beni_Sana.mp3
+613:Elbette_Öleceksin.mp3
+614:En_Sevgili.mp3
+615:İbocan.mp3
+616:Kırılmasın_Sesim.mp3
+617:Minder.mp3
+618:Seni_Düşünmek.mp3
+619:Seslen.mp3
+620:Tut_Elini_Yüreğimin.mp3
+621:Olsun.mp3
+622:Serab Erener  -Gitsem.mp3
+623:Kırık_Kalpler_Durağında.mp3
+624:Hüzün_Hoş_Geldin.mp3
+625:Kış_Ortasında.mp3
+626:Ukde.mp3
+627:YaDa_-_Koca_Şehir.mp3
+628:Acısa_da_Öldürmez.mp3
+629:Boş_Yere.mp3
+630:Oluruna_Bırak.mp3
+631:Öndeyiş.mp3
+632:Vur_Kadehi_Ustam.mp3
+633:Zamanında.mp3
+634:Korkak_(feat._Gökhan_Türkmen).mp3
+635:Kötü_Şeyler.mp3
+636:Müptezel.mp3
+637:Olmayacak_Bir_Hayal.mp3
+638:Bende_Bir_Problem_Var.mp3
+639:Beni_Vur_(Akustik).mp3
+640:Dağlar.mp3
+641:Unutamadım_(Kaç_Kadeh_Kırıldı).mp3
+642:Ağlamam Zaman Aldı (İnkar).mp3
+643:Bize_Susmak_Yakışır_(Öfke).mp3
+644:Kehanet.mp3
+645:Kuğunun_Ağıtı.mp3
+646:Levla_Vazgeçti_(Depresyon).mp3
+647:Model - Antidepresan Gülümsemesi.mp3
+648:Ninni.mp3
+649:Sarı_Kurdeleler.mp3
+650:Sen_Ona_Aşıksın_(Kabullenme).mp3
+651:Bad_boy.mp3
+652:Come_with_Me_Now.mp3
+653:Durma_Yağmur_Durma.mp3
+654:Madrigal - Seni Dert Etmeler (Official Audio)(MP3_160K)_1.mp3
+655:Dursun_Zaman.mp3
+656:Los_Días_Raros.mp3
+657:Her_Şey_Bitmedi_Bitemez.mp3
+658:Aşk_Olsun.mp3
+659:Kır_Papatyası.mp3
+660:Seni_Seven_Öldü_(Haberin_Varmı).mp3
+661:Meczup.mp3
+662:Danza_Kuduro.mp3
+663:Melike Şahin - Deli Kan(MP3_160K)_1.mp3
+664:Melike Sahin - Geri Ver(MP3_160K)_1.mp3
+665:BARABAR_-_Yürüyorum_Dikenlerin_Üstünde.mp3
+666:Young.mp3
+667:karanfil.mp3
+668:zeybek.mp3
+669:Nothing_Else_Matters.mp3
+670:Mey.mp3
+671:Gecmisin_Yuku.mp3
+672:Zeynep Bakşi Karatağ – Talihim Yok Bahtım Kara  [ Mozaik © 2016 Kalan Müzik ](MP3_160K)_1.mp3
+673:Muhbir.mp3
+674:Muhtemel_Aşk.mp3
+675:Sextronot.mp3
+676:Murat Göğebakan - Hasretinle yandı gönlüm(MP3_160K)_1.mp3
+677:Afitap.mp3
+678:Bırak.mp3
+679:Can_Dostum.mp3
+680:Engerek.mp3
+681:Günaydın_Sevgilim.mp3
+682:Kurşun.mp3
+683:Lacivert.mp3
+684:Münferit.mp3
+685:Müstehcen.mp3
+686:Yan_Benimle.mp3
+687:Müsaade_Senin_(feat._Ceylan_Köse).mp3
+688:İzlerin_Duruyor.mp3
+689:Bang_Bang.mp3
+690:Problem.mp3
+691:Nafile.mp3
+692:Nalan.mp3
+693:Let_Me_Down_Slowly.mp3
+694:Nasılım_Biliyor_musun.mp3
+695:Nazende_Sevgilim.mp3
+696:NAZLI ÖKSÜZ - Saçların (Ah O Saçların)(MP3_160K)_1.mp3
+697:Neden.mp3
+698:Meyhaneler_Sen....mp3
+699:Namus_Belası.mp3
+700:Islak_Islak.mp3
+701:Sen_De_Başını_Alıp_Gitme.mp3
+702:Nevermind.mp3
+703:Radioactive.mp3
+704:Nightwish - While Your Lips Are Still Red (OFFICIAL VIDEO)(MP3_160K)_1.mp3
+705:Duvar.mp3
+706:Nikah_Masası_(Düğüm_Salonu_Orjinal_Film_Müziği).mp3
+707:Nilipek. - Herkese Yetecek Kadar (Şen Bakkal Live Session)(MP3_160K)_1.mp3
+708:We_Don't_Talk_Anymore_(feat._Selena_Gomez).mp3
+709:Nokta.mp3
+710:Gitme_Kal_(feat._Yıldız_Tilbe).mp3
+711:Ölebilirim.mp3
+712:Sena_Şener_-_Ölsem.mp3
+713:Bak.mp3
+714:Ölüm_Kalım_Meselesi.mp3
+715:One_Kiss.mp3
+716:Sezen_Aksu_-_Vay_(Official_Video).mp3
+717:Organize İşler Sazan Sarmalı _ Nil Karaibrahimgil - Burası İstanbul (Orijinal Film Müziği)(MP3_160K)_1.mp3
+718:Bad_Liar.mp3
+719:Machine.mp3
+720:Natural.mp3
+721:Yüzyüzeyken_Konuşuruz_-_Adam_(Official_Audio).mp3
+722:Yüzyüzeyken_Konuşuruz_-_Çok_Acil_Bir_İş_(Official_Audio).mp3
+723:Yüzyüzeyken_Konuşuruz_-_Kalabalık_(Official_Audio).mp3
+724:Yüzyüzeyken_Konuşuruz_-_Para_Hala_Bende_(Official_Audio).mp3
+725:Düşler_Sokağı.mp3
+726:mor_ve_ötesi_-_'Oyunbozan'_(Canlı_Senfonik_-_Aya_İrini)___Official_Video.mp3
+727:mor_ve_ötesi_-_'Uyan'_(Canlı_Senfonik_-_Aya_İrini)___Official_Video.mp3
+728:Aşk Dediğin Ölmez Yok Yere.mp3
+729:İçime_Sevda_Kaçar.mp3
+730:Gelsin_Öpsün_Kalbimi.mp3
+731:Deniz_Üstünde_Fener.mp3
+732:Bu_Matem_Dolu_Cennet.mp3
+733:Ego_Daglari.mp3
+734:Ellerinde_Ellerim.mp3
+735:Pinhani - Dünyadan Uzak(MP3_160K)_1.mp3
+736:Nefes_Bile_Almadan.mp3
+737:Aşk_Nerden_Nereye.mp3
+738:Tutuklu.mp3
+739:Son_Feci_Bisiklet_-_Rahatsız_Vals.mp3
+740:Rehber - Sorgu(MP3_160K)_1.mp3
+741:Bir_Çaresi_Bulunur.mp3
+742:Renkli_Rüyalar_Oteli.mp3
+743:Yaş_Elli.mp3
+744:Rica_Ederim.mp3
+745:Rober Hatemo - Beyaz Ve Sen (Official Audio)(MP3_160K)_1.mp3
+746:Rolling_in_the_Deep.mp3
+747:Ruhum_Bela.mp3
+748:Ah_Benim_Hayatım.mp3
+749:Hepinize_El_Salladım.mp3
+750:Orda_Ortada.mp3
+751:Rüyalarda_Buruşmuşum.mp3
+752:Yanmış_İçinden.mp3
+753:İyileşiyorum.mp3
+754:Şafak_Türküsü.mp3
+755:Serena.mp3
+756:Şahaneyim.mp3
+757:Ömrümün_Sonbaharında.mp3
+758:Eller_Aldi.mp3
+759:Firtinam.mp3
+760:Tutamıyorum_Zamanı.mp3
+761:Ayda_Hüzün.mp3
+762:God's_Plan.mp3
+763:See_You_Again_(feat._Charlie_Puth).mp3
+764:Cevapsız_Sorular.mp3
+765:Şehri_Getir_Gel.mp3
+766:Ölürüm_Hasretinle.mp3
+767:Selma Hünel - Bir İhtimal Daha Var(MP3_160K)_1.mp3
+768:Sen_Beni_Unutamazsın.mp3
+769:Sen_Benim_Şarkılarımsın_(feat._Hande_Mehan).mp3
+770:Sen_Bunları_Duyma.mp3
+771:Ayrılık_Hasreti_Kâr_Etti_Cana.mp3
+772:Emre_Azaklar_-_Seni_Ben_Nasıl_Saklarım_(Official_Video).mp3
+773:Seni_Gördüm_Rüyamda.mp3
+774:Sedef_Sebüktekin_-_Seni_Uyurken_İzlemek_(feat._Canozan).mp3
+775:Gökhan_Yeşilkaya_-_Senin_Şehrin.mp3
+776:Yanarım.mp3
+777:Ay_Tenli_Kadın.mp3
+778:Sevda_Gibi.mp3
+779:Hep_Sonradan.mp3
+780:Bazen.mp3
+781:Benim_Göğüm_Ol.mp3
+782:Benimle_Gel.mp3
+783:Bir_Vagon_Penceresinden.mp3
+784:Biraz_Orman_Biraz_Deniz.mp3
+785:Çiçekten_Düştüm_(feat._Ayfer_Vardar).mp3
+786:İkimiz_Yalnız_Değiliz.mp3
+787:Karanlığa_Karşı_Sen.mp3
+788:Sevgiden_Yana.mp3
+789:Yüzünün_İlk_Çağında_(feat._Erdal_Güney).mp3
+790:Sevmemeliyiz.mp3
+791:Gitsen_de.mp3
+792:Sezen Aksu - Bir Çocuk Sevdim (1988)(MP3_160K)_1.mp3
+793:Sezen Aksu - Kurşuni Renkler (1985 Sezen Aksu Söylüyor Müzikhali)(M4A_128K)_1.m4a
+794:Shape_of_You.mp3
+795:Everybody_Hates_Me.mp3
+796:Save_Yourself.mp3
+797:Silahım_Yok.mp3
+798:Silmesinler_İzlerimi_(Saz_Söz_Mavi).mp3
+799:Bir_Kış_Masalı.mp3
+800:Insan_Mıyız_-_Vazgeçilmiyor.mp3
+801:Hiç_Işık_Yok.mp3
+802:Dön_Demeyi_Unuttum.mp3
+803:Egeli_Lodos.mp3
+804:Kenar_Süsü.mp3
+805:Korkma.mp3
+806:Sıla.mp3
+807:Skyfall.mp3
+808:Sokak_Lambası.mp3
+809:Something_Just_Like_This.mp3
+810:Son_Feci_Bisiklet_-_Bikinisinde_Astronomi.mp3
+811:Son_Feci_Bisiklet_-_Kaybol.mp3
+812:son_feci_bisiklet_-_varoluşum_yokuşu.mp3
+813:Yara.mp3
+814:Söyle_Ruhum.mp3
+815:Yine_Yazı_Bekleriz.mp3
+816:Suç_Mahalli.mp3
+817:Sultan-ı_Yegâh.mp3
+818:Gidin.mp3
+819:Sümbül.mp3
+820:Battaniyem.mp3
+821:Oluyorum.mp3
+822:Kupa_Kızı_Ve_Sinek_Valesi.mp3
+823:7_rings.mp3
+824:break_up_with_your_girlfriend,_i'm_bored.mp3
+825:imagine.mp3
+826:thank_u,_next.mp3
+827:Ho_Hey.mp3
+828:Alive.mp3
+829:Unstoppable.mp3
+830:This_Is_What_You_Came_For.mp3
+831:Hey_Brother.mp3
+832:Wake_Me_Up.mp3
+833:Tuna Kiremitçi - İz Kalmadan(MP3_160K)_1.mp3
+834:Birden_Geldin_Aklıma_(feat._Sena_Şener).mp3
+835:Yine_Sevebilirim_(feat._Yıldız_Tilbe).mp3
+836:Tuna_Kiremitçi_&_Ece_Mumay_-_Yalnızlığıma_Ver.mp3
+837:Tuna_Kiremitçi_&_Yıldız_Tilbe_-_Gelse_de_Ayrılık.mp3
+838:Ah_Bu_Ben.mp3
+839:Yandım.mp3
+840:Hayko Cepkin - Bertaraf Et(MP3_160K)_1.mp3
+841:Hayko Cepkin - Yol Gözümü Dağlıyor(MP3_160K)_1.mp3
+842:Zeynep Bakşi Karatağ - Adaletin Bu mu Dünya [ Çukur Dizi Şarkısı © 2019 Kalan Müzik ](MP3_160K)_1.mp3
+843:Zeynep_Bakşi_Karatağ_-_Adaletin_Bu_mu_Dünya_[_Çukur_Dizi_Şarkısı_©_2019_Kala.mp3
+844:Gönül_Yarası.mp3
+845:Hazan_Nedir.mp3
+846:Söz_Bitti.mp3
+847:Tutuşmuş_Beraber.mp3
+848:Unutama_Beni.mp3
+849:Hasretinle_Yandı_Gönlüm.mp3
+850:Kolpa_&_Yaprak_Çamlıca_-_Unutmadım.mp3
+851:Bana_Ellerini_Ver_(From_'Kiraz_Mevsimi').mp3
+852:Cem Karaca - Tamirci Çırağı.mp3
+853:Usul_Usul.mp3
+854:Zeynep Bakşi Karatağ feat. Ahmet Aslan - Odam Kireç Tutmuyor [ Usulca © 2018 Kalan Müzik ](MP3_160K)_1.mp3
+855:Beni_Bırakma.mp3
+856:Animals.mp3
+857:Sugar.mp3
+858:Açık Deniz.mp3
+859:Aslan Gibi.mp3
+860:Çocuk.mp3
+861:Esaret.mp3
+862:Hala.mp3
+863:Her_Şey_Yolunda.mp3
+864:İmkânsız.mp3
+865:Issız_Ada.mp3
+866:Leyla.mp3
+867:Zor_Sevdiğimden.mp3
+868:Hep_Yaşın_19.mp3
+869:Son_Feci_Bisiklet_-_Gece_(Vesaire).mp3
+870:Son_Feci_Bisiklet_-_Pazar_ve_Ertesi_(Vesaire).mp3
+871:Son_Feci_Bisiklet_-_Ütopya_(Vesaire).mp3
+872:Vursalar_Ölemem.mp3
+873:Call_You_Mine.mp3
+874:Kills_You_Slowly.mp3
+875:Yad_Eller.mp3
+876:Banklarda_Mı_Yatayım.mp3
+877:Ah_Çok_Güzelsin.mp3
+878:Ben_Bu_Kafayla_Napıcam.mp3
+879:Sessiz_Gemi.mp3
+880:Sigara.mp3
+881:Vazgeçtim_Ben_Bugün.mp3
+882:Beni_Hatırla.mp3
+883:Yangın_Yeri.mp3
+884:Yanımda_Kal.mp3
+885:Yanıyor.mp3
+886:Yankı.mp3
+887:Kalan_Giden_Benim.mp3
+888:Kar.mp3
+889:Beni_Aşka_İnandır.mp3
+890:Yatağın_Soğuk_Tarafı.mp3
+891:Doldur.mp3
+892:Hediye.mp3
+893:Merhabalar.mp3
+894:Reverans.mp3
+895:Saki.mp3
+896:Sevgili_Kaybım.mp3
+897:Tamam_mıyız.mp3
+898:Yabancı.mp3
+899:Yeter.mp3
+900:Yeni_Limanlara.mp3
+901:Gelsin_Hayat_Bildiği_Gibi_(feat._Sezen_Aksu).mp3
+902:Redd_-_Siktiret_Boşver__[Official_Audio]__YersizGöksüzZamanlar.mp3
+903:Sen_de_Saçmala.mp3
+904:Kovdum.mp3
+905:Senin_Şarkın.mp3
+906:Vazgeçtim_(feat._Ozan_Doğulu).mp3
+907:Feride_Hilal_Akın_-_Yok_Yok.mp3
+908:Yoksun.mp3
+909:Kurşuni_Renkler.mp3
+910:Pinhani_-_Kefen_Giydim_(Yollar_Bizi_Bekler_-_2019).mp3
+911:Pinhani_ft._Kalben_-_İyi_Değilim_Ben_(Yollar_Bizi_Bekler_-_2019).mp3
+912:Yolun_Sonu.mp3
+913:Aşktan_Öte.mp3
+914:Hani_Benim_Gençliğim.mp3
+915:Son_Bakış.mp3
+916:Belki_Üstümüzden_Bir_Kuş_Geçer.mp3
+917:Kafile.mp3
+918:ZAKKUM __ Hüzzam (2020)(MP3_160K)_1.mp3
+919:Zalım.mp3
+920:Ne_Güzel_Güldün.mp3
+921:Sevmekten_Usanmam.mp3
+922:Zaman_Yok.mp3
+923:Funda Arar - Yak Gel.mp3
+924:Senden_Öğrendim.mp3
+925:Bir_Şarkı_Söylerim.mp3
+926:Senden_Bana.mp3
+927:Zeynep Bakşi Karatağ - Uğurlama [ Usulca © 2018 Kalan Müzik ](MP3_160K)_1.mp3
+928:Грустная_сука.mp3
+playlist_end

@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/mustafaakil/Documents/projects/work/friendship-for-universities'
+let g:netrw_dirhist_6='/home/mustafaakil/.config/sway'
+let g:netrw_dirhist_5='/home/mustafaakil/.config/nvim'
+let g:netrw_dirhist_4='/home/mustafaakil/.config/sway'
+let g:netrw_dirhist_3='/home/mustafaakil/.config/sway/config.d'
+let g:netrw_dirhist_2='/home/mustafaakil/.config/sway'
+let g:netrw_dirhist_1='/home/mustafaakil/.config/nvim'

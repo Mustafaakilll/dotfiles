@@ -1,0 +1,32 @@
+2023-01-16 20:46:54.990 [info] Log level: Info
+2023-01-16 20:46:54.990 [info] Validating found git in: "git"
+2023-01-16 20:46:54.990 [info] Using git "2.39.0" from "git"
+2023-01-16 20:47:13.950 [info] Log level: Info
+2023-01-16 20:47:13.950 [info] Validating found git in: "git"
+2023-01-16 20:47:13.950 [info] Using git "2.39.0" from "git"
+2023-01-16 20:47:13.950 [info] > git rev-parse --show-toplevel [3ms]
+2023-01-16 20:47:13.950 [info] > git rev-parse --git-dir --git-common-dir [35ms]
+2023-01-16 20:47:13.950 [info] Open repository: /home/mustafaakil/Documents/projects/work/friendship-for-universities
+2023-01-16 20:47:13.951 [info] > git config --get commit.template [43ms]
+2023-01-16 20:47:13.951 [info] > git rev-parse --show-toplevel [52ms]
+2023-01-16 20:47:13.951 [info] > git rev-parse --show-toplevel [15ms]
+2023-01-16 20:47:13.951 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-16 20:47:13.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2023-01-16 20:47:13.951 [info] > git status -z -uall [12ms]
+2023-01-16 20:47:13.951 [info] > git rev-parse --show-toplevel [23ms]
+2023-01-16 20:47:13.951 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2023-01-16 20:47:13.951 [info] > git rev-parse --show-toplevel [16ms]
+2023-01-16 20:47:13.951 [info] > git config --get commit.template [128ms]
+2023-01-16 20:47:13.951 [info] > git rev-parse --show-toplevel [122ms]
+2023-01-16 20:47:13.951 [info] > git rev-parse --show-toplevel [11ms]
+2023-01-16 20:47:14.901 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [965ms]
+2023-01-16 20:47:14.971 [info] > git status -z -uall [61ms]
+2023-01-16 20:47:14.971 [info] > git check-ignore -v -z --stdin [39ms]
+2023-01-16 20:47:14.973 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [53ms]
+2023-01-16 20:47:14.975 [info] > git rev-parse --show-toplevel [1027ms]
+2023-01-16 20:47:15.019 [info] > git rev-parse --show-toplevel [34ms]
+2023-01-16 20:47:15.058 [info] > git rev-parse --show-toplevel [30ms]
+2023-01-16 20:47:15.094 [info] > git show --textconv :full-stack/mobile/lib/auth/auth_repository.dart [13ms]
+2023-01-16 20:47:15.095 [info] > git ls-files --stage -- /home/mustafaakil/Documents/projects/work/friendship-for-universities/full-stack/mobile/lib/auth/auth_repository.dart [5ms]
+2023-01-16 20:47:15.105 [info] > git rev-parse --show-toplevel [36ms]
+2023-01-16 20:47:15.106 [info] > git cat-file -s ef5274dc07c555d9465bb2bc5d6734addcccda0e [1ms]

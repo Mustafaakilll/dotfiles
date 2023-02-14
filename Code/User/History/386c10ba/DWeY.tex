@@ -1,0 +1,138 @@
+\documentclass[12pt]{article}
+\title{Demo}
+\author{Mustafa Akil, Yetkin ASLAN}
+\author{Egemen OZDEN, Merve GURASLAN}
+\date{April 2022}
+
+% useful packages
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{natbib}
+% \usepackage[]{biblatex}
+% \addbibresource{test.bib}
+% \bibliography{test.bib}
+% \bibdata{test.bib}
+
+\graphicspath{./}
+
+
+\begin{document}
+\maketitle
+
+\tableofcontents \newpage
+
+\begin{abstract}
+    Bu benim ilk gercek amacli ozet kismim lutfen patlama
+    \cite{DUMMY:1}
+\bibliography{DUMMY:1} buda gelsin
+\bibliographystyle{ieeetr}
+\end{abstract}
+
+
+\section{Icindekiler}
+Bu kismi icindekiler icin yapmistim ama bosa oldu gibi ama bosa oldu gibi ama neyse bosa doldurmak amacli burayi uzatiyorum.
+
+\section{Introduction}
+Your \textbf{introduction \emph{goes} here!} Simply start writing your document and use the Recompile button to view the updated PDF preview. \textbf{Examples} \underline{of} \textit{commonly} used commands and features are listed below, to help you get started.  Once you're familiar with the editor, you can find various project setting in the Overleaf menu, accessed via the button in the very top left of the editor. To view tutorials, user guides, and further documentation, please visit our \href{https://www.overleaf.com/learn}{help library}, or head to our plans page to \href{https://www.overleaf.com/user/subscription/plans}{choose your plan}. Ardindan buraya gelenler yine yanina mi geliyor yoksa alt satirdan mi devam ediyor.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.25\textwidth]{demo}
+    \caption{Demo figure 1}
+    \label{fig:demo1}
+\end{figure}
+
+Peki ben burada \pageref{fig:demo1} bunu kullanmak istersem bu yeterince iyi
+Peki ben burada \pageref{fig:demo1} bunu kullanmak istersem bu yeterince iyi
+
+\begin{itemize}
+    \item Demo 1
+    \item Demo 2
+    \item Demo 3
+\end{itemize}
+
+\begin{enumerate}
+    \item Demo 1
+    \item Demo 2
+    \item Demo 3
+\end{enumerate}
+
+
+In physics, the mass-energy equivalence is stated 
+by the equation $E=mc^2$, discovered in 1905 by Albert Einstein.\newline
+$\Delta = b^2 - 4*a*c$
+
+
+The mass-energy equivalence is described by the famous equation
+\[ E=mc^2 \]
+discovered in 1905 by Albert Einstein. 
+In natural units ($c = 1$), the formula expresses the identity
+\begin{equation}
+E=m
+\end{equation}
+
+Subscripts in math mode are written as $a_b$ and superscripts are written as $a^b$. These can be combined an nested to write expressions such as
+
+\[ T^{i_1 i_2 \dots i_p}_{j_1 j_2 \dots j_q} = T(x^{i_1},\dots,x^{i_p},e_{j_1},\dots,e_{j_q}) \]
+ 
+We write integrals using $\int$ and fractions using $\frac{a}{b}$. Limits are placed on integrals using superscripts and subscripts:
+
+\[ \int_0^1 \frac{dx}{e^x} =  \frac{e-1}{e} \]
+
+Lower case Greek letters are written as $\omega$ $\delta$ etc. while upper case Greek letters are written as $\Omega$ $\Delta$.
+
+Mathematical operators are prefixed with a backslash as $\sin(\beta)$, $\cos(\alpha)$, $\log(x)$ etc.
+
+\begin{center}
+    \begin{tabular}{|c |c |c|}
+        \hline
+        cell1 & cell2 & cell3 \\ 
+        cell4 & cell5 & cell6 \\  
+        cell7 & cell8 & cell9 \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\begin{center}
+ \begin{tabular}{|c c c c|} 
+ \hline
+ Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
+ \hline\hline
+ 1 & 6 & 87837 & 787 \\ 
+ \hline
+ 2 & 7 & 78 & 5415 \\
+ \hline
+ 3 & 545 & 778 & 7507 \\
+ \hline
+ 4 & 545 & 18744 & 7560 \\
+ \hline
+ 5 & 88 & 788 & 6344 \\ [1ex] 
+ \hline
+\end{tabular}
+\end{center}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c c c c|} 
+ \hline
+ Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
+ \hline\hline
+ 1 & 6 & 87837 & 787 \\ 
+ 2 & 7 & 78 & 5415 \\
+ 3 & 545 & 778 & 7507 \\
+ 4 & 545 & 18744 & 7560 \\
+ 5 & 88 & 788 & 6344 \\ [1ex] 
+ \hline
+\end{tabular}
+\caption{Table to test captions and labels}
+\label{table:data}
+\end{table}
+\newpage
+
+Burasi tamamen deneme amacli yapilmis olup calismasini umut ediyorum \pageref{table:data}
+
+
+
+\end{document}

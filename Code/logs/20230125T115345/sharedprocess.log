@@ -1,0 +1,35 @@
+2023-01-25 11:53:47.298 [info] Starting worker process with pid 31024 (type: fileWatcher, window: 1).
+2023-01-25 11:53:49.674 [info] Getting Manifest... github.codespaces
+2023-01-25 11:53:49.680 [info] Getting Manifest... github.copilot
+2023-01-25 11:53:49.680 [info] Getting Manifest... rangav.vscode-thunder-client
+2023-01-25 11:53:49.680 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2023-01-25 11:53:50.689 [info] Installing extension: github.codespaces
+2023-01-25 11:53:50.696 [info] Installing extension: rangav.vscode-thunder-client
+2023-01-25 11:53:50.697 [info] Installing extension: github.copilot
+2023-01-25 11:53:50.736 [info] Installing extension: vscode-icons-team.vscode-icons
+2023-01-25 11:53:53.285 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.ab23c5f4-9c2d-4e11-b8d6-3d8629b64132: github.copilot
+2023-01-25 11:53:53.288 [info] Renamed to /home/mustafaakil/.vscode/extensions/github.copilot-1.70.8099
+2023-01-25 11:53:53.289 [info] Extracting completed. github.copilot
+2023-01-25 11:53:53.298 [info] Extension installed successfully: github.copilot
+2023-01-25 11:53:53.326 [info] Marked extension as uninstalled github.copilot-1.69.8032
+2023-01-25 11:53:54.050 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.a26b6c1e-e09a-424b-b284-3360f415af63: vscode-icons-team.vscode-icons
+2023-01-25 11:53:54.052 [info] Renamed to /home/mustafaakil/.vscode/extensions/vscode-icons-team.vscode-icons-12.2.0
+2023-01-25 11:53:54.054 [info] Extracting completed. vscode-icons-team.vscode-icons
+2023-01-25 11:53:54.062 [info] Extension installed successfully: vscode-icons-team.vscode-icons
+2023-01-25 11:53:54.096 [info] Marked extension as uninstalled vscode-icons-team.vscode-icons-12.0.1
+2023-01-25 11:53:54.616 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.373c6333-b47f-4fbf-9486-2536f4b529e3: github.codespaces
+2023-01-25 11:53:54.630 [info] Renamed to /home/mustafaakil/.vscode/extensions/github.codespaces-1.13.7
+2023-01-25 11:53:54.631 [info] Extracting completed. github.codespaces
+2023-01-25 11:53:54.638 [info] Extension installed successfully: github.codespaces
+2023-01-25 11:53:54.662 [info] Marked extension as uninstalled github.codespaces-1.13.6
+2023-01-25 11:54:00.752 [info] Worker process with pid 31024 terminated normally (type: fileWatcher, window: 1).
+2023-01-25 11:54:01.362 [info] Starting worker process with pid 31256 (type: fileWatcher, window: 1).
+2023-01-25 11:54:08.939 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.fde3926d-d8f2-4d85-83bc-87627ca35889: rangav.vscode-thunder-client
+2023-01-25 11:54:08.941 [info] Renamed to /home/mustafaakil/.vscode/extensions/rangav.vscode-thunder-client-2.3.4
+2023-01-25 11:54:08.942 [info] Extracting completed. rangav.vscode-thunder-client
+2023-01-25 11:54:08.949 [info] Extension installed successfully: rangav.vscode-thunder-client
+2023-01-25 11:54:08.982 [info] Marked extension as uninstalled rangav.vscode-thunder-client-2.3.3
+2023-01-25 11:54:14.134 [info] Starting worker process with pid 31525 (type: fileWatcher, window: 3).
+2023-01-25 11:54:15.328 [info] Worker process with pid 31525 terminated normally (type: fileWatcher, window: 3).
+2023-01-25 11:55:56.945 [info] Starting worker process with pid 31895 (type: fileWatcher, window: 4).
+2023-01-25 11:55:57.527 [info] Worker process with pid 31895 terminated normally (type: fileWatcher, window: 4).

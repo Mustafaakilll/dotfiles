@@ -1,0 +1,8 @@
+2023-01-20 20:43:07.008 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+2023-01-20 20:43:09.259 [error] Unexpected end of JSON input: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /home/mustafaakil/.vscode/extensions/vscodevim.vim-1.24.3/src/register/register.ts:349:33
+2023-01-20 20:43:13.986 [info] [perf] Render performance baseline is 25ms
+2023-01-20 20:43:45.574 [error] No expression to evaluate: Error: No expression to evaluate
+    at T.evaluate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2068:8921)
+    at $r.showAt (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2068:6121)

@@ -1,0 +1,6 @@
+2023-01-20 20:53:38.216 [info] update#setState idle
+2023-01-20 20:53:38.901 [info] Starting extension host with pid 8141 (fork() took 9 ms).
+2023-01-20 20:54:08.217 [info] update#setState checking for updates
+2023-01-20 20:54:08.962 [info] update#setState idle
+2023-01-20 21:15:51.981 [info] Waiting for extension host with pid 8141 to exit.
+2023-01-20 21:15:52.367 [info] Extension host with pid 8141 exited with code: 0, signal: null.

@@ -1,0 +1,392 @@
+2023-01-07 17:32:57.609 [info] Extension host with pid 28576 started
+2023-01-07 17:32:57.609 [info] Skipping acquiring lock for /home/mustafaakil/.config/Code/User/workspaceStorage/25fed96c7e7db339ea2e525b074bf093.
+2023-01-07 17:32:57.668 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-01-07 17:32:57.669 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-01-07 17:32:57.669 [info] ExtensionService#_doActivateExtension GitHub.codespaces, startup: true, activationEvent: '*'
+2023-01-07 17:32:57.669 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-01-07 17:32:58.100 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-07 17:32:58.119 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'api', root cause: GitHub.codespaces
+2023-01-07 17:32:58.187 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-01-07 17:32:58.220 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-01-07 17:32:58.220 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2023-01-07 17:32:58.221 [info] ExtensionService#_doActivateExtension jeroen-meijer.pubspec-assist, startup: false, activationEvent: '*'
+2023-01-07 17:32:58.221 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: false, activationEvent: '*'
+2023-01-07 17:32:58.221 [info] ExtensionService#_doActivateExtension rangav.vscode-thunder-client, startup: false, activationEvent: 'onStartupFinished'
+2023-01-07 17:32:58.221 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-01-07 17:32:58.221 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2023-01-07 17:32:58.221 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: false, activationEvent: '*'
+2023-01-07 17:32:58.222 [info] ExtensionService#_doActivateExtension Dart-Code.dart-code, startup: false, activationEvent: 'workspaceContains:pubspec.yaml'
+2023-01-07 17:32:58.599 [error] Activating extension mhutchie.git-graph failed due to an error:
+2023-01-07 17:32:58.599 [error] Error: Cannot find module '/home/mustafaakil/.vscode/extensions/mhutchie.git-graph-1.30.0/out/extension.js'
+Require stack:
+- /opt/visual-studio-code/resources/app/out/vs/loader.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:987:15)
+    at Module._load (node:internal/modules/cjs/loader:832:27)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Function.r._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:13379)
+    at Function.w._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61900)
+    at Function.v._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61293)
+    at Module.require (node:internal/modules/cjs/loader:1059:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Function.r [as __$__nodeRequire] (/opt/visual-studio-code/resources/app/out/vs/loader.js:5:101)
+    at d.pb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:63164)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+2023-01-07 17:32:58.626 [info] ExtensionService#_doActivateExtension FelixAngelov.bloc, startup: false, activationEvent: 'workspaceContains:**/pubspec.yaml'
+2023-01-07 17:33:04.105 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-07 17:33:04.105 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-07 17:33:04.105 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-07 17:33:04.106 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-07 17:33:04.891 [warning] DiagnosticCollection with name 'devcontainer' does already exist.
+2023-01-07 17:33:04.909 [info] Eager extensions activated
+2023-01-07 17:33:04.924 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-07 17:33:04.924 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-07 17:33:04.924 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-07 17:33:04.924 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-01-07 17:33:04.925 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2023-01-07 17:33:04.925 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-01-07 17:33:05.722 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-01-07 17:33:05.775 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage:plaintext'
+2023-01-07 17:33:07.753 [warning] TextEditor is closed/disposed
+2023-01-07 17:33:10.254 [info] ExtensionService#_doActivateExtension BendixMa.dart-data-class-generator, startup: false, activationEvent: 'onLanguage:dart'
+2023-01-07 17:33:10.254 [info] ExtensionService#_doActivateExtension luanpotter.dart-import, startup: false, activationEvent: 'onLanguage:dart'
+2023-01-07 17:33:10.254 [info] ExtensionService#_doActivateExtension marcelovelasquez.flutter-tree, startup: false, activationEvent: 'onLanguage:dart'
+2023-01-07 17:33:10.261 [error] Activating extension luanpotter.dart-import failed due to an error:
+2023-01-07 17:33:10.261 [error] Error: Cannot find module '/home/mustafaakil/.vscode/extensions/luanpotter.dart-import-0.3.1/out/extension'
+Require stack:
+- /opt/visual-studio-code/resources/app/out/vs/loader.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:987:15)
+    at Module._load (node:internal/modules/cjs/loader:832:27)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Function.r._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:13379)
+    at Function.w._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61900)
+    at Function.v._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61293)
+    at Module.require (node:internal/modules/cjs/loader:1059:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Function.r [as __$__nodeRequire] (/opt/visual-studio-code/resources/app/out/vs/loader.js:5:101)
+    at d.pb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:63164)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+2023-01-07 17:33:10.261 [error] Activating extension marcelovelasquez.flutter-tree failed due to an error:
+2023-01-07 17:33:10.261 [error] Error: Cannot find module '/home/mustafaakil/.vscode/extensions/marcelovelasquez.flutter-tree-1.0.0/out/extension.js'
+Require stack:
+- /opt/visual-studio-code/resources/app/out/vs/loader.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:987:15)
+    at Module._load (node:internal/modules/cjs/loader:832:27)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Function.r._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:13379)
+    at Function.w._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61900)
+    at Function.v._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61293)
+    at Module.require (node:internal/modules/cjs/loader:1059:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Function.r [as __$__nodeRequire] (/opt/visual-studio-code/resources/app/out/vs/loader.js:5:101)
+    at d.pb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:63164)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+2023-01-07 17:33:29.786 [warning] TextEditor is closed/disposed
+2023-01-07 17:33:36.028 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2023-01-07 17:34:10.228 [error] [GitHub.copilot] provider FAILED
+2023-01-07 17:34:10.228 [error] AbortError: The operation was aborted.
+    at EventEmitter.C (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:35983)
+    at EventEmitter.emit (node:events:526:28)
+    at s.dispatchEvent (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:28806)
+    at s.fire (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:28847)
+    at c.abort (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:29556)
+    at /home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:8:1125706
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at A.cancel (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:5632)
+    at I.cancel (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:6046)
+    at Object.M (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9998)
+    at u.I (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:10472)
+    at u.G (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9252)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:7788
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at h.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15804
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at h.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+    at c.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:17324)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:15795
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at g.acceptChunk (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:12045)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:11332
+    at Socket.l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:19792)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-01-07 17:39:21.878 [warning] TextEditor is closed/disposed
+2023-01-07 17:39:22.413 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:22.413 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:22.413 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:22.413 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:22.413 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:22.413 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:48.371 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:48.372 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:48.372 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:48.372 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:48.372 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:48.372 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:49.377 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:49.377 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:49.377 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:49.377 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:49.377 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:49.377 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:50.800 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:50.800 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:50.800 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:50.800 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:50.800 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:39:50.800 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:40:04.563 [warning] TextEditor is closed/disposed
+2023-01-07 17:40:06.153 [warning] TextEditor is closed/disposed
+2023-01-07 17:48:08.964 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:08.964 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:08.964 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:08.964 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:08.964 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:08.964 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.269 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.269 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.269 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.269 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.269 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.269 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.335 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.335 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.335 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.335 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.335 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.335 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.351 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.351 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.351 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.351 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.351 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.351 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.363 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.363 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.363 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.363 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.363 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.363 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.376 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.376 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.376 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.376 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.376 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.376 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.389 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.390 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.390 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.390 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.390 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.390 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.412 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.412 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.412 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.412 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.412 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.412 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.463 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.463 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.463 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.463 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.463 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.463 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.629 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.629 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.629 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.629 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.629 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.629 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.645 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.645 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.645 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.645 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.645 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.645 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.722 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.722 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.722 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.722 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.722 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:48:09.722 [warning] FelixAngelov.bloc - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-01-07 17:49:21.753 [warning] TextEditor is closed/disposed
+2023-01-07 17:49:28.236 [error] Error: cannot open file:///home/mustafaakil/Desktop/Dart/backtracking/combination.dart. Detail: Unable to read file '/home/mustafaakil/Desktop/Dart/backtracking/combination.dart' (Error: Unable to resolve nonexistent file '/home/mustafaakil/Desktop/Dart/backtracking/combination.dart')
+    at n.$tryOpenDocument (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2485:77012)
+2023-01-07 17:49:38.222 [error] Error: cannot open file:///home/mustafaakil/Desktop/Dart/backtracking/combination.dart. Detail: Unable to read file '/home/mustafaakil/Desktop/Dart/backtracking/combination.dart' (Error: Unable to resolve nonexistent file '/home/mustafaakil/Desktop/Dart/backtracking/combination.dart')
+    at n.$tryOpenDocument (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2485:77012)
+2023-01-07 17:49:43.704 [error] Error: cannot open file:///home/mustafaakil/Desktop/Dart/backtracking/combination.dart. Detail: Unable to read file '/home/mustafaakil/Desktop/Dart/backtracking/combination.dart' (Error: Unable to resolve nonexistent file '/home/mustafaakil/Desktop/Dart/backtracking/combination.dart')
+    at n.$tryOpenDocument (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2485:77012)
+2023-01-07 17:49:51.022 [warning] TextEditor is closed/disposed
+2023-01-07 17:50:37.334 [error] Error: cannot open file:///home/mustafaakil/Desktop/Dart/backtracking/combination.dart. Detail: Unable to read file '/home/mustafaakil/Desktop/Dart/backtracking/combination.dart' (Error: Unable to resolve nonexistent file '/home/mustafaakil/Desktop/Dart/backtracking/combination.dart')
+    at n.$tryOpenDocument (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2485:77012)
+2023-01-07 17:50:47.621 [warning] TextEditor is closed/disposed
+2023-01-07 17:51:04.633 [error] [GitHub.copilot] provider FAILED
+2023-01-07 17:51:04.633 [error] AbortError: The operation was aborted.
+    at EventEmitter.C (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:35983)
+    at EventEmitter.emit (node:events:526:28)
+    at s.dispatchEvent (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:28806)
+    at s.fire (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:28847)
+    at c.abort (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:29556)
+    at /home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:8:1125706
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at A.cancel (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:5632)
+    at I.cancel (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:6046)
+    at Object.M (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9998)
+    at u.I (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:10472)
+    at u.G (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9252)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:7788
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at h.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15804
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at h.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+    at c.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:17324)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:15795
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at g.acceptChunk (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:12045)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:11332
+    at Socket.l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:19792)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-01-07 17:51:06.681 [error] [GitHub.copilot] provider FAILED
+2023-01-07 17:51:06.681 [error] AbortError: The operation was aborted.
+    at EventEmitter.C (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:35983)
+    at EventEmitter.emit (node:events:526:28)
+    at s.dispatchEvent (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:28806)
+    at s.fire (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:28847)
+    at c.abort (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:29556)
+    at /home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:8:1125706
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at A.cancel (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:5632)
+    at I.cancel (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:6046)
+    at Object.M (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9998)
+    at u.I (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:10472)
+    at u.G (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9252)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:7788
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at h.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15804
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at h.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+    at c.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:17324)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:15795
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at g.acceptChunk (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:12045)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:11332
+    at Socket.l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:19792)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-01-07 17:51:08.099 [error] [GitHub.copilot] provider FAILED
+2023-01-07 17:51:08.099 [error] AbortError: The operation was aborted.
+    at EventEmitter.C (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:35983)
+    at EventEmitter.emit (node:events:526:28)
+    at s.dispatchEvent (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:28806)
+    at s.fire (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:28847)
+    at c.abort (/home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:2:29556)
+    at /home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705/dist/extension.js:8:1125706
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at A.cancel (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:5632)
+    at I.cancel (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:6046)
+    at Object.M (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9998)
+    at u.I (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:10472)
+    at u.G (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:9252)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:7788
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at h.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15804
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at h.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+    at c.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:17324)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:15795
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at g.acceptChunk (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:12045)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:11332
+    at Socket.l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:19792)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-01-07 17:52:44.025 [error] Error: cannot open file:///home/mustafaakil/Desktop/Dart/backtracking/combination.dart. Detail: Unable to read file '/home/mustafaakil/Desktop/Dart/backtracking/combination.dart' (Error: Unable to resolve nonexistent file '/home/mustafaakil/Desktop/Dart/backtracking/combination.dart')
+    at n.$tryOpenDocument (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2485:77012)
+2023-01-07 17:53:20.724 [info] Extension host terminating: received terminate message from renderer
+2023-01-07 17:53:21.044 [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/mustafaakil/.vscode/extensions/vscodevim.vim-1.24.3/src/register/register.ts:326:30)
+    at Object.e.deactivate (/home/mustafaakil/.vscode/extensions/vscodevim.vim-1.24.3/extension.ts:65:18)
+    at d.X (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11333)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9301
+    at Array.map (<anonymous>)
+    at d.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9288)
+    at d.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9563)
+    at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:1397)
+    at b (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:17815)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15750
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at h.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+    at c.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:17324)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:15795
+    at d.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at w.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at g.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at g.acceptChunk (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:12045)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:11332
+    at Socket.l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:19792)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-01-07 17:53:21.056 [warning] {"name":"Canceled"}
+2023-01-07 17:53:21.059 [info] Extension host with pid 28576 exiting with code 0

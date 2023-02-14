@@ -1,0 +1,45 @@
+[INFO] [ghostText] [2023-01-20T17:56:51.978Z] Cancelled after extractPrompt
+[INFO] [ghostText] [2023-01-20T17:56:51.981Z] Cancelled after extractPrompt
+[INFO] [ghostText] [2023-01-20T17:56:58.828Z] Cancelled during debounce
+[INFO] [ghostText] [2023-01-20T17:57:00.520Z] Cancelled during debounce
+[INFO] [default] [2023-01-20T17:57:51.593Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-01-20T17:57:52.878Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-01-20T18:02:37.890Z] Cancelled during debounce
+[INFO] [ghostText] [2023-01-20T18:03:46.203Z] Cancelled during debounce
+[INFO] [ghostText] [2023-01-20T18:03:46.330Z] Cancelled during debounce
+[INFO] [default] [2023-01-20T18:03:46.660Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-01-20T18:03:47.371Z] Cancelled by contextual filter
+[INFO] [default] [2023-01-20T18:03:50.394Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-01-20T18:03:50.697Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-01-20T18:04:19.606Z] Cancelled after extractPrompt
+[INFO] [ghostText] [2023-01-20T18:04:27.035Z] Cancelled after extractPrompt
+[INFO] [default] [2023-01-20T18:04:27.711Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-01-20T18:04:28.087Z] Cancelled by contextual filter
+[INFO] [ghostText] [2023-01-20T18:06:55.957Z] Cancelled during debounce
+[INFO] [default] [2023-01-20T18:06:56.072Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-01-20T18:06:56.283Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-01-20T18:06:57.859Z] Cancelled by contextual filter
+[INFO] [default] [2023-01-20T18:06:59.811Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-01-20T18:07:00.072Z] Cancelled by contextual filter
+[INFO] [ghostText] [2023-01-20T18:08:14.668Z] Cancelled after extractPrompt
+[INFO] [default] [2023-01-20T18:11:53.988Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-01-20T18:11:58.500Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-01-20T18:11:59.567Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 1067 ms
+[INFO] [streamChoices] [2023-01-20T18:11:59.570Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-01-20T18:11:59.571Z] request done: headerRequestId: [1e68950a-7187-40dc-b647-87f2a2b22c6c] model deployment ID: [x73b6f7186c58]
+[INFO] [default] [2023-01-20T18:12:00.960Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-01-20T18:12:01.174Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-01-20T18:12:01.729Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-01-20T18:12:29.617Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-01-20T18:12:31.848Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-01-20T18:12:32.252Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-01-20T18:12:35.287Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-01-20T18:15:24.966Z] Cancelled during debounce
+[INFO] [default] [2023-01-20T18:15:27.364Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-01-20T18:15:28.423Z] Cancelled during debounce
+[INFO] [ghostText] [2023-01-20T18:15:28.633Z] Cancelled by contextual filter
+[INFO] [ghostText] [2023-01-20T18:15:29.622Z] Cancelled by contextual filter
+[INFO] [ghostText] [2023-01-20T18:15:31.115Z] Cancelled by contextual filter
+[INFO] [ghostText] [2023-01-20T18:15:32.057Z] Cancelled by contextual filter
+[INFO] [default] [2023-01-20T18:15:34.729Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-01-20T18:15:35.231Z] Cancelled by contextual filter

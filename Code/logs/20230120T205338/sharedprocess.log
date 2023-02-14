@@ -1,0 +1,13 @@
+2023-01-20 20:53:39.636 [info] Deleted from disk esbenp.prettier-vscode /home/mustafaakil/.vscode/extensions/esbenp.prettier-vscode-9.10.3
+2023-01-20 20:53:39.637 [info] Deleted from disk github.copilot /home/mustafaakil/.vscode/extensions/github.copilot-1.65.7705
+2023-01-20 20:53:39.641 [info] Deleted from disk github.codespaces /home/mustafaakil/.vscode/extensions/github.codespaces-1.13.5
+2023-01-20 20:53:39.641 [info] Deleted from disk vue.vscode-typescript-vue-plugin /home/mustafaakil/.vscode/extensions/vue.vscode-typescript-vue-plugin-1.0.24
+2023-01-20 20:53:39.644 [info] Deleted from disk ms-toolsai.jupyter-renderers /home/mustafaakil/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.12
+2023-01-20 20:53:39.895 [info] Starting worker process with pid 8208 (type: fileWatcher, window: 1).
+2023-01-20 20:53:40.106 [info] Deleted from disk rangav.vscode-thunder-client /home/mustafaakil/.vscode/extensions/rangav.vscode-thunder-client-2.3.0
+2023-01-20 20:53:40.263 [info] Deleted from disk ms-python.vscode-pylance /home/mustafaakil/.vscode/extensions/ms-python.vscode-pylance-2023.1.10
+2023-01-20 20:53:40.264 [info] Deleted from disk prisma.prisma /home/mustafaakil/.vscode/extensions/prisma.prisma-4.8.1
+2023-01-20 20:53:40.266 [info] Deleted from disk ms-python.python /home/mustafaakil/.vscode/extensions/ms-python.python-2022.20.1
+2023-01-20 20:53:49.139 [error] [uncaught exception in sharedProcess]: XHR failed: Error: XHR failed
+    at b.onerror (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:72:1428)
+2023-01-20 20:53:50.585 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}

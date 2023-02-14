@@ -1,0 +1,44 @@
+2023-01-31 21:43:56.690 [info] Log level: Info
+2023-01-31 21:43:56.690 [info] Validating found git in: "git"
+2023-01-31 21:43:56.690 [info] Using git "2.39.1" from "git"
+2023-01-31 21:43:56.690 [info] > git rev-parse --show-toplevel [3ms]
+2023-01-31 21:43:56.690 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-01-31 21:43:56.690 [info] > git rev-parse --show-toplevel [41ms]
+2023-01-31 21:43:56.690 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-01-31 21:43:56.697 [info] > git rev-parse --show-toplevel [2ms]
+2023-01-31 21:43:56.697 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-01-31 21:43:57.472 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-31 21:43:57.472 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-01-31 21:44:08.683 [info] Log level: Info
+2023-01-31 21:44:08.683 [info] Validating found git in: "git"
+2023-01-31 21:44:08.683 [info] Using git "2.39.1" from "git"
+2023-01-31 21:44:08.683 [info] > git rev-parse --show-toplevel [44ms]
+2023-01-31 21:44:08.683 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2023-01-31 21:44:08.683 [info] Open repository: /home/mustafaakil/Documents/projects/work/pau-flutter
+2023-01-31 21:44:08.686 [info] > git config --get commit.template [5ms]
+2023-01-31 21:44:08.686 [info] > git fetch [23ms]
+2023-01-31 21:44:08.686 [info] fatal: unable to access 'https://git.pau.edu.tr/mobile/pau-flutter/': Could not resolve host: git.pau.edu.tr
+2023-01-31 21:44:08.687 [info] > git rev-parse --show-toplevel [16ms]
+2023-01-31 21:44:09.475 [info] > git rev-parse --show-toplevel [780ms]
+2023-01-31 21:44:09.496 [info] > git check-ignore -v -z --stdin [96ms]
+2023-01-31 21:44:09.497 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [87ms]
+2023-01-31 21:44:09.520 [info] > git status -z -uall [14ms]
+2023-01-31 21:44:09.521 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2023-01-31 21:44:09.526 [info] > git rev-parse --show-toplevel [42ms]
+2023-01-31 21:44:09.560 [info] > git rev-parse --show-toplevel [24ms]
+2023-01-31 21:44:09.570 [info] > git rev-parse --show-toplevel [0ms]
+2023-01-31 21:44:09.581 [info] > git config --get commit.template [32ms]
+2023-01-31 21:44:09.582 [info] > git rev-parse --show-toplevel [2ms]
+2023-01-31 21:44:09.605 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [2ms]
+2023-01-31 21:44:09.626 [info] > git rev-parse --show-toplevel [34ms]
+2023-01-31 21:44:09.645 [info] > git status -z -uall [30ms]
+2023-01-31 21:44:09.645 [info] > git rev-parse --show-toplevel [8ms]
+2023-01-31 21:44:09.655 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [30ms]
+2023-01-31 21:44:09.657 [info] > git rev-parse --show-toplevel [3ms]
+2023-01-31 21:44:09.675 [info] > git rev-parse --show-toplevel [10ms]
+2023-01-31 21:44:09.690 [info] > git rev-parse --show-toplevel [7ms]
+2023-01-31 21:44:09.702 [info] > git rev-parse --show-toplevel [3ms]

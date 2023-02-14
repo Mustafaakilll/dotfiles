@@ -1,0 +1,49 @@
+2023-01-25 13:26:16.478 [info] Log level: Info
+2023-01-25 13:26:16.478 [info] Validating found git in: "git"
+2023-01-25 13:26:16.478 [info] Using git "2.39.1" from "git"
+2023-01-25 13:26:16.478 [info] > git rev-parse --show-toplevel [17ms]
+2023-01-25 13:26:16.478 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-01-25 13:26:16.479 [info] > git rev-parse --show-toplevel [4ms]
+2023-01-25 13:26:16.479 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-01-25 13:26:35.525 [info] Log level: Info
+2023-01-25 13:26:35.525 [info] Validating found git in: "git"
+2023-01-25 13:26:35.525 [info] Using git "2.39.1" from "git"
+2023-01-25 13:26:35.525 [info] > git rev-parse --show-toplevel [65ms]
+2023-01-25 13:26:35.525 [info] > git rev-parse --git-dir --git-common-dir [30ms]
+2023-01-25 13:26:35.525 [info] Open repository: /home/mustafaakil/Documents/projects/work/pau_flutter
+2023-01-25 13:26:35.546 [info] > git rev-parse --show-toplevel [33ms]
+2023-01-25 13:26:35.605 [info] > git config --get commit.template [81ms]
+2023-01-25 13:26:35.662 [info] > git rev-parse --show-toplevel [105ms]
+2023-01-25 13:26:35.692 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [2ms]
+2023-01-25 13:26:35.721 [info] > git rev-parse --show-toplevel [45ms]
+2023-01-25 13:26:35.740 [info] > git status -z -uall [34ms]
+2023-01-25 13:26:35.740 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+2023-01-25 13:26:35.759 [info] > git rev-parse --show-toplevel [27ms]
+2023-01-25 13:26:35.778 [info] > git config --get commit.template [21ms]
+2023-01-25 13:26:35.778 [info] > git rev-parse --show-toplevel [5ms]
+2023-01-25 13:26:35.805 [info] > git rev-parse --show-toplevel [14ms]
+2023-01-25 13:26:35.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [16ms]
+2023-01-25 13:26:35.851 [info] > git status -z -uall [19ms]
+2023-01-25 13:26:35.851 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2023-01-25 13:26:35.852 [info] > git rev-parse --show-toplevel [35ms]
+2023-01-25 13:26:35.868 [info] > git fetch [369ms]
+2023-01-25 13:26:35.868 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: HTTP Basic: Access denied. The provided password or token is incorrect or your account has 2FA enabled and you must use a personal access token instead of a password. See https://git.pau.edu.tr/help/topics/git/troubleshooting_git#error-on-git-fetch-http-basic-access-denied
+fatal: Authentication failed for 'https://git.pau.edu.tr/mobile/pau-flutter.git/'
+2023-01-25 13:26:35.872 [info] > git rev-parse --show-toplevel [7ms]
+2023-01-25 13:26:35.884 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-25 13:26:35.900 [info] > git rev-parse --show-toplevel [2ms]
+2023-01-25 13:26:35.916 [info] > git rev-parse --show-toplevel [3ms]
+2023-01-25 13:26:36.283 [info] > git check-ignore -v -z --stdin [40ms]
+2023-01-25 13:26:36.914 [info] > git show --textconv :pau_mobil/lib/main.dart [21ms]
+2023-01-25 13:26:36.916 [info] > git ls-files --stage -- /home/mustafaakil/Documents/projects/work/pau_flutter/pau_mobil/lib/main.dart [6ms]
+2023-01-25 13:26:37.021 [info] > git cat-file -s 58cf9416990bbfad3c61f72d0f09ba0e90ac6000 [91ms]
+2023-01-25 13:26:47.556 [info] > git config --get commit.template [17ms]
+2023-01-25 13:26:47.557 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [1ms]
+2023-01-25 13:26:47.586 [info] > git status -z -uall [13ms]
+2023-01-25 13:26:47.588 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]

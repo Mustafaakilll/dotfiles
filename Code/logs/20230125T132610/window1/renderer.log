@@ -1,0 +1,7 @@
+2023-01-25 13:26:15.518 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+2023-01-25 13:26:17.728 [error] Unexpected end of JSON input: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /home/mustafaakil/.vscode/extensions/vscodevim.vim-1.24.3/src/register/register.ts:349:33
+2023-01-25 13:26:18.041 [info] [perf] Render performance baseline is 26ms
+2023-01-25 13:26:33.412 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+2023-01-25 13:26:35.701 [info] [perf] Render performance baseline is 25ms

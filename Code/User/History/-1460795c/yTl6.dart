@@ -1,0 +1,35 @@
+import 'package:dio/dio.dart' hide LogInterceptor;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
+import 'interceptors/auth_interceptor.dart';
+
+class BaseDioClient {
+  BaseDioClient.auth() {
+    // _dio.options.baseUrl = dotenv.get('AUTH_ENDPOINT');
+    _dio.options.baseUrl = 'http://192.168.225.92:3000/api/v1/auth';
+  }
+
+  BaseDioClient.user() {
+    _dio.interceptors.add(AuthInterceptor());
+    // _dio.options.baseUrl = dotenv.get('USER_ENDPOINT');
+    _dio.options.baseUrl = 'http://192.168.225.92:3000/api/v1/user';
+  }
+
+  BaseDioClient.article() {
+    _dio.interceptors.add(AuthInterceptor());
+
+    _dio.options.baseUrl = 'http://192.168.225.92:3000/api/v1/article';
+    // _dio.options.baseUrl = dotenv.get('ARTICLE_ENDPOINT');
+  }
+
+  BaseDioClient.cloudinary() {
+    _dio.interceptors.add(AuthInterceptor());
+    final cloudinaryUrl = dotenv.get('CLOUDINARY_URL');
+    final cloudName = dotenv.get('CLOUD_NAME');
+    _dio.options.baseUrl = '$cloudinaryUrl$cloudName';
+  }
+
+  final Dio _dio = Dio();
+
+  Dio get dio => _dio;
+}

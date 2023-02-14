@@ -1,0 +1,5 @@
+2023-02-13 15:42:39.105 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-13 15:42:39.153 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/mustafaakil/tmp/demo/demo.json","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-02-13 15:42:40.017 [error] Extension 'ms-python.python' wants API proposal 'telemetryLogger' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-13 15:42:40.034 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+2023-02-13 15:42:42.473 [info] [perf] Render performance baseline is 29ms

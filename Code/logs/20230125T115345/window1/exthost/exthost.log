@@ -1,0 +1,189 @@
+2023-01-25 11:53:47.120 [info] Extension host with pid 30961 started
+2023-01-25 11:53:47.120 [info] Skipping acquiring lock for /home/mustafaakil/.config/Code/User/workspaceStorage/43ee9a37a2247505725b98adf79540af.
+2023-01-25 11:53:47.372 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage:plaintext'
+2023-01-25 11:53:47.372 [info] ExtensionService#_doActivateExtension BendixMa.dart-data-class-generator, startup: false, activationEvent: 'onLanguage:dart'
+2023-01-25 11:53:47.373 [info] ExtensionService#_doActivateExtension Dart-Code.dart-code, startup: false, activationEvent: 'onLanguage:dart'
+2023-01-25 11:53:47.373 [info] ExtensionService#_doActivateExtension luanpotter.dart-import, startup: false, activationEvent: 'onLanguage:dart'
+2023-01-25 11:53:47.373 [info] ExtensionService#_doActivateExtension marcelovelasquez.flutter-tree, startup: false, activationEvent: 'onLanguage:dart'
+2023-01-25 11:53:47.374 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-01-25 11:53:47.374 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-25 11:53:47.374 [info] ExtensionService#_doActivateExtension GitHub.codespaces, startup: true, activationEvent: '*'
+2023-01-25 11:53:47.374 [info] ExtensionService#_doActivateExtension jeroen-meijer.pubspec-assist, startup: true, activationEvent: '*'
+2023-01-25 11:53:47.375 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2023-01-25 11:53:47.375 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-01-25 11:53:47.375 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2023-01-25 11:53:47.630 [error] Activating extension luanpotter.dart-import failed due to an error:
+2023-01-25 11:53:47.630 [error] Error: Cannot find module '/home/mustafaakil/.vscode/extensions/luanpotter.dart-import-0.3.1/out/extension'
+Require stack:
+- /opt/visual-studio-code/resources/app/out/vs/loader.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:987:15)
+    at Module._load (node:internal/modules/cjs/loader:832:27)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Function.r._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:13379)
+    at Function.w._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61900)
+    at Function.v._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61293)
+    at Module.require (node:internal/modules/cjs/loader:1059:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Function.r [as __$__nodeRequire] (/opt/visual-studio-code/resources/app/out/vs/loader.js:5:101)
+    at d.pb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:63164)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+2023-01-25 11:53:47.631 [error] Activating extension marcelovelasquez.flutter-tree failed due to an error:
+2023-01-25 11:53:47.631 [error] Error: Cannot find module '/home/mustafaakil/.vscode/extensions/marcelovelasquez.flutter-tree-1.0.0/out/extension.js'
+Require stack:
+- /opt/visual-studio-code/resources/app/out/vs/loader.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:987:15)
+    at Module._load (node:internal/modules/cjs/loader:832:27)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Function.r._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:13379)
+    at Function.w._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61900)
+    at Function.v._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61293)
+    at Module.require (node:internal/modules/cjs/loader:1059:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Function.r [as __$__nodeRequire] (/opt/visual-studio-code/resources/app/out/vs/loader.js:5:101)
+    at d.pb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:63164)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+2023-01-25 11:53:47.631 [error] Activating extension mhutchie.git-graph failed due to an error:
+2023-01-25 11:53:47.631 [error] Error: Cannot find module '/home/mustafaakil/.vscode/extensions/mhutchie.git-graph-1.30.0/out/extension.js'
+Require stack:
+- /opt/visual-studio-code/resources/app/out/vs/loader.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:987:15)
+    at Module._load (node:internal/modules/cjs/loader:832:27)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Function.r._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:13379)
+    at Function.w._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61900)
+    at Function.v._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61293)
+    at Module.require (node:internal/modules/cjs/loader:1059:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Function.r [as __$__nodeRequire] (/opt/visual-studio-code/resources/app/out/vs/loader.js:5:101)
+    at d.pb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:63164)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+2023-01-25 11:53:47.829 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-25 11:53:47.830 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-25 11:53:47.831 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'api', root cause: GitHub.codespaces
+2023-01-25 11:53:47.924 [info] ExtensionService#_doActivateExtension Dart-Code.flutter, startup: false, activationEvent: 'api', root cause: Dart-Code.dart-code
+2023-01-25 11:53:47.925 [info] ExtensionService#_doActivateExtension FelixAngelov.bloc, startup: true, activationEvent: 'workspaceContains:**/pubspec.yaml'
+2023-01-25 11:53:48.195 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-25 11:53:48.195 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-25 11:53:48.195 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-25 11:53:48.195 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-25 11:53:48.195 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-25 11:53:49.354 [error] SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /home/mustafaakil/.vscode/extensions/vscodevim.vim-1.24.3/src/register/register.ts:349:33
+2023-01-25 11:53:49.697 [warning] DiagnosticCollection with name 'devcontainer' does already exist.
+2023-01-25 11:53:49.721 [info] Eager extensions activated
+2023-01-25 11:53:49.725 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:53:49.725 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:53:49.725 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:53:49.726 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:53:49.726 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2023-01-25 11:53:49.726 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:53:49.726 [info] ExtensionService#_doActivateExtension rangav.vscode-thunder-client, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:53:49.726 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:53:49.726 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:53:49.726 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:53:50.331 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:54:00.716 [info] Extension host terminating: received terminate message from renderer
+2023-01-25 11:54:00.741 [warning] {"name":"Canceled"}
+2023-01-25 11:54:00.746 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new k (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:87831)
+    at u.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:11245)
+    at Proxy.G.<computed>.O.charCodeAt.G.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:8535)
+    at U.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:105:20116)
+    at Object.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:59336)
+    at useProxySettings (/opt/visual-studio-code/resources/app/node_modules.asar/vscode-proxy-agent/out/index.js:159:16)
+    at /opt/visual-studio-code/resources/app/node_modules.asar/vscode-proxy-agent/out/index.js:107:13
+    at /opt/visual-studio-code/resources/app/node_modules.asar/vscode-proxy-agent/out/index.js:336:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+2023-01-25 11:54:00.763 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new k (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:87831)
+    at u.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:11245)
+    at Proxy.G.<computed>.O.charCodeAt.G.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:8535)
+    at U.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:105:20116)
+    at Object.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:59336)
+    at useProxySettings (/opt/visual-studio-code/resources/app/node_modules.asar/vscode-proxy-agent/out/index.js:159:16)
+    at /opt/visual-studio-code/resources/app/node_modules.asar/vscode-proxy-agent/out/index.js:107:13
+    at /opt/visual-studio-code/resources/app/node_modules.asar/vscode-proxy-agent/out/index.js:336:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+2023-01-25 11:54:00.770 [info] Extension host with pid 30961 exiting with code 0
+2023-01-25 11:54:02.101 [info] Extension host with pid 31255 started
+2023-01-25 11:54:02.101 [info] Skipping acquiring lock for /home/mustafaakil/.config/Code/User/workspaceStorage/a4503bcbbb2cf911f2bb132adc41485e.
+2023-01-25 11:54:02.152 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-01-25 11:54:02.152 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-01-25 11:54:02.153 [info] ExtensionService#_doActivateExtension GitHub.codespaces, startup: true, activationEvent: '*'
+2023-01-25 11:54:02.153 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-01-25 11:54:02.521 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-25 11:54:02.529 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'api', root cause: GitHub.codespaces
+2023-01-25 11:54:02.563 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2023-01-25 11:54:02.564 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:54:02.564 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:54:02.564 [info] ExtensionService#_doActivateExtension jeroen-meijer.pubspec-assist, startup: false, activationEvent: '*'
+2023-01-25 11:54:02.564 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: false, activationEvent: '*'
+2023-01-25 11:54:02.565 [info] ExtensionService#_doActivateExtension rangav.vscode-thunder-client, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:54:02.565 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:54:02.565 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:54:02.565 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: false, activationEvent: '*'
+2023-01-25 11:54:02.565 [info] ExtensionService#_doActivateExtension Dart-Code.dart-code, startup: false, activationEvent: 'workspaceContains:pubspec.yaml'
+2023-01-25 11:54:02.820 [error] Activating extension mhutchie.git-graph failed due to an error:
+2023-01-25 11:54:02.820 [error] Error: Cannot find module '/home/mustafaakil/.vscode/extensions/mhutchie.git-graph-1.30.0/out/extension.js'
+Require stack:
+- /opt/visual-studio-code/resources/app/out/vs/loader.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:987:15)
+    at Module._load (node:internal/modules/cjs/loader:832:27)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Function.r._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:13379)
+    at Function.w._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61900)
+    at Function.v._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:61293)
+    at Module.require (node:internal/modules/cjs/loader:1059:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Function.r [as __$__nodeRequire] (/opt/visual-studio-code/resources/app/out/vs/loader.js:5:101)
+    at d.pb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:63164)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+2023-01-25 11:54:02.919 [info] ExtensionService#_doActivateExtension FelixAngelov.bloc, startup: false, activationEvent: 'workspaceContains:**/pubspec.yaml'
+2023-01-25 11:54:03.945 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-25 11:54:03.946 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-25 11:54:03.946 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-25 11:54:03.946 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-25 11:54:04.498 [info] ExtensionService#_doActivateExtension Dart-Code.flutter, startup: false, activationEvent: 'api', root cause: Dart-Code.dart-code
+2023-01-25 11:54:04.627 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage:plaintext'
+2023-01-25 11:54:04.647 [warning] DiagnosticCollection with name 'devcontainer' does already exist.
+2023-01-25 11:54:04.669 [info] Eager extensions activated
+2023-01-25 11:54:04.672 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:54:04.672 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:54:04.672 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:54:04.672 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:54:04.673 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2023-01-25 11:54:04.673 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 11:54:05.085 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-01-25 12:01:17.968 [warning] TextEditor is closed/disposed
+2023-01-25 12:01:39.090 [warning] TextEditor is closed/disposed
+2023-01-25 12:03:45.089 [warning] TextEditor is closed/disposed
+2023-01-25 12:03:45.152 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:ignore'
+2023-01-25 12:03:45.152 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:ignore'
+2023-01-25 12:04:21.071 [warning] TextEditor is closed/disposed
+2023-01-25 12:04:24.959 [info] Extension host terminating: received terminate message from renderer
+2023-01-25 12:04:25.273 [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 't'
+    |     property '_readableState' -> object with constructor 'M'
+    |     property 'pipes' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 't.ConsoleForElectron'
+    --- property 'parent' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /home/mustafaakil/.vscode/extensions/vscodevim.vim-1.24.3/src/register/register.ts:333:16
+    at process.async (node:internal/process/task_queues:96:5)
+    at Object.e.deactivate (/home/mustafaakil/.vscode/extensions/vscodevim.vim-1.24.3/extension.ts:64:8)
+    at async Promise.all (index 29)
+    at d.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9315)
+2023-01-25 12:04:25.294 [info] Extension host with pid 31255 exiting with code 0

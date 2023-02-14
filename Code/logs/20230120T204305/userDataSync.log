@@ -1,0 +1,102 @@
+2023-01-20 20:43:06.902 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2023-01-20 20:43:06.902 [info] Auto Sync is enabled.
+2023-01-20 20:43:06.902 [info] Auto Sync: Suspended until auth token is available.
+2023-01-20 20:43:07.917 [info] Auto Sync: Triggered by Interval
+2023-01-20 20:43:07.917 [info] Sync started.
+2023-01-20 20:43:09.379 [info] Profiles: No changes found during synchronizing profiles.
+2023-01-20 20:43:09.438 [info] Settings: No changes found during synchronizing settings.
+2023-01-20 20:43:09.450 [info] Keybindings: No changes found during synchronizing keybindings.
+2023-01-20 20:43:09.459 [info] Snippets: No changes found during synchronizing snippets.
+2023-01-20 20:43:09.464 [info] Tasks: No changes found during synchronizing tasks.
+2023-01-20 20:43:10.475 [info] GlobalState: Updated remote ui state. Updated: cpp.1.lastSessionDate,cpp.1.sessionCount,java.2.lastSessionDate,java.2.sessionCount,workbench.statusbar.hidden.
+2023-01-20 20:43:10.480 [info] GlobalState: Updated last synchronized ui state
+2023-01-20 20:43:10.564 [info] Extensions: No changes found during synchronizing extensions.
+2023-01-20 20:43:10.567 [info] Sync done. Took 2652ms
+2023-01-20 20:43:15.564 [info] Auto Sync: Triggered by Activity
+2023-01-20 20:43:15.564 [info] Sync started.
+2023-01-20 20:43:15.831 [info] Profiles: No changes found during synchronizing profiles.
+2023-01-20 20:43:15.842 [info] Settings: No changes found during synchronizing settings.
+2023-01-20 20:43:15.848 [info] Keybindings: No changes found during synchronizing keybindings.
+2023-01-20 20:43:15.857 [info] Snippets: No changes found during synchronizing snippets.
+2023-01-20 20:43:15.864 [info] Tasks: No changes found during synchronizing tasks.
+2023-01-20 20:43:16.693 [info] GlobalState: Updated remote ui state. Updated: workbench.activity.pinnedViewlets2.
+2023-01-20 20:43:16.726 [info] GlobalState: Updated last synchronized ui state
+2023-01-20 20:43:17.153 [info] Extensions: No changes found during synchronizing extensions.
+2023-01-20 20:43:17.210 [info] Sync done. Took 1647ms
+2023-01-20 20:43:32.853 [info] Auto Sync: Triggered by Activity
+2023-01-20 20:43:32.854 [info] Sync started.
+2023-01-20 20:43:53.385 [info] Profiles: No changes found during synchronizing profiles.
+2023-01-20 20:43:53.408 [info] Settings: No changes found during synchronizing settings.
+2023-01-20 20:43:53.416 [info] Keybindings: No changes found during synchronizing keybindings.
+2023-01-20 20:43:53.422 [info] Snippets: No changes found during synchronizing snippets.
+2023-01-20 20:43:53.425 [info] Tasks: No changes found during synchronizing tasks.
+2023-01-20 20:44:29.973 [info] Request failed https://vscode-sync.trafficmanager.net/v1/resource/globalState
+2023-01-20 20:44:29.974 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/resource/globalState'.
+    at b.w (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:141892)
+    at async b.writeResource (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:139432)
+    at async o.jb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:29015)
+    at async o.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:49750)
+    at async o.X (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:24397)
+    at async o.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:22659)
+    at async o.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:21656)
+    at async o.P (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:20182)
+    at async o.sync (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:19480)
+    at async c.sync (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:124265)
+    at async s.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:117310)
+    at async s.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:116229)
+2023-01-20 20:44:29.974 [error] globalState: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/resource/globalState'.
+2023-01-20 20:44:30.068 [info] Extensions: No changes found during synchronizing extensions.
+2023-01-20 20:44:30.073 [info] Sync done. Took 57220ms
+2023-01-20 20:44:30.074 [info] Auto Sync: Triggered by Activity
+2023-01-20 20:44:30.074 [info] Sync started.
+2023-01-20 20:45:24.300 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2023-01-20 20:45:24.300 [error] RequestTimeout (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at b.w (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:141892)
+    at async b.manifest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:139904)
+    at async s.createSyncTask (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:114984)
+    at async a.y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:105548)
+2023-01-20 20:45:24.301 [error] RequestTimeout (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at b.w (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:141892)
+    at async b.manifest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:139904)
+    at async s.createSyncTask (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:114984)
+    at async a.y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:105548)
+2023-01-20 20:45:24.301 [info] Auto Sync: Triggered by Activity
+2023-01-20 20:45:24.301 [info] Sync started.
+2023-01-20 20:45:24.494 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2023-01-20 20:45:24.494 [error] RequestTimeout (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at b.w (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:141892)
+    at async b.manifest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:139904)
+    at async s.createSyncTask (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:114984)
+    at async a.y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:105548)
+2023-01-20 20:45:24.495 [error] RequestTimeout (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at b.w (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:141892)
+    at async b.manifest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:139904)
+    at async s.createSyncTask (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:114984)
+    at async a.y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:105548)
+2023-01-20 20:45:50.743 [info] Auto Sync: Triggered by Activity
+2023-01-20 20:45:50.743 [info] Sync started.
+2023-01-20 20:45:58.018 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2023-01-20 20:45:58.019 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at b.w (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:141892)
+    at async b.manifest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:139904)
+    at async s.createSyncTask (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:114984)
+    at async a.y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:105548)
+2023-01-20 20:45:58.019 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at b.w (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:141892)
+    at async b.manifest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:139904)
+    at async s.createSyncTask (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:114984)
+    at async a.y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:105548)
+2023-01-20 20:47:01.057 [info] Auto Sync: Triggered by Activity
+2023-01-20 20:47:01.057 [info] Sync started.
+2023-01-20 20:47:23.274 [info] Profiles: No changes found during synchronizing profiles.
+2023-01-20 20:47:23.297 [info] Settings: No changes found during synchronizing settings.
+2023-01-20 20:47:23.302 [info] Keybindings: No changes found during synchronizing keybindings.
+2023-01-20 20:47:23.309 [info] Snippets: No changes found during synchronizing snippets.
+2023-01-20 20:47:23.314 [info] Tasks: No changes found during synchronizing tasks.
+2023-01-20 20:47:24.108 [info] GlobalState: Updated remote ui state. Updated: workbench.panel.pinnedPanels.
+2023-01-20 20:47:24.122 [info] GlobalState: Updated last synchronized ui state
+2023-01-20 20:47:24.712 [info] Extensions: Updated remote extensions. Updated: ["github.copilot"].
+2023-01-20 20:47:24.725 [info] Extensions: Updated last synchronized extensions. Skipped: ["jolaleye.horizon-theme-vscode"].
+2023-01-20 20:47:24.730 [info] Sync done. Took 23673ms
+2023-01-20 20:47:33.833 [info] Auto Sync: Triggered by Activity
+2023-01-20 20:47:33.834 [info] Sync started.

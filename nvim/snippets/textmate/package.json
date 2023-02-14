@@ -1,0 +1,18 @@
+{
+  "contributes": {
+    "snippets": [
+      {
+        "language": "global",
+        "path": "./global.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./javascript.json"
+      },
+      {
+        "language": "dart",
+        "path": "./dart.json"
+      }
+    ]
+  }
+}

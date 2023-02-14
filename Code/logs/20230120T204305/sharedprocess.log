@@ -1,0 +1,73 @@
+2023-01-20 20:43:07.106 [info] Starting worker process with pid 6024 (type: fileWatcher, window: 1).
+2023-01-20 20:43:07.300 [info] Deleted from disk vue.vscode-typescript-vue-plugin /home/mustafaakil/.vscode/extensions/vue.vscode-typescript-vue-plugin-1.0.23
+2023-01-20 20:43:07.301 [info] Deleted from disk vue.volar /home/mustafaakil/.vscode/extensions/vue.volar-1.0.22-linux-x64
+2023-01-20 20:43:15.530 [info] Getting Manifest... esbenp.prettier-vscode
+2023-01-20 20:43:15.531 [info] Getting Manifest... github.codespaces
+2023-01-20 20:43:15.531 [info] Getting Manifest... github.copilot
+2023-01-20 20:43:15.532 [info] Getting Manifest... ms-python.python
+2023-01-20 20:43:15.532 [info] Getting Manifest... ms-python.vscode-pylance
+2023-01-20 20:43:15.533 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-01-20 20:43:15.533 [info] Getting Manifest... prisma.prisma
+2023-01-20 20:43:15.534 [info] Getting Manifest... rangav.vscode-thunder-client
+2023-01-20 20:43:15.534 [info] Getting Manifest... vue.vscode-typescript-vue-plugin
+2023-01-20 20:43:16.488 [info] Installing extension: ms-python.python
+2023-01-20 20:43:16.658 [info] Installing extension: ms-python.vscode-pylance
+2023-01-20 20:43:16.714 [info] Installing extension: prisma.prisma
+2023-01-20 20:43:16.758 [info] Installing extension: github.copilot
+2023-01-20 20:43:16.763 [info] Installing extension: github.codespaces
+2023-01-20 20:43:16.785 [info] Installing extension: rangav.vscode-thunder-client
+2023-01-20 20:43:16.785 [info] Installing extension: vue.vscode-typescript-vue-plugin
+2023-01-20 20:43:16.802 [info] Installing extension: esbenp.prettier-vscode
+2023-01-20 20:43:16.872 [info] Installing extension: ms-toolsai.jupyter-renderers
+2023-01-20 20:43:17.532 [info] Getting Manifest... ms-python.python
+2023-01-20 20:43:17.896 [info] Waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2023-01-20 20:43:42.302 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.ac874f64-9ed3-4093-96dc-7f36aedcce3d: rangav.vscode-thunder-client
+2023-01-20 20:43:42.305 [info] Renamed to /home/mustafaakil/.vscode/extensions/rangav.vscode-thunder-client-2.3.3
+2023-01-20 20:43:42.307 [info] Extracting completed. rangav.vscode-thunder-client
+2023-01-20 20:43:42.316 [info] Extension installed successfully: rangav.vscode-thunder-client
+2023-01-20 20:43:42.364 [info] Marked extension as uninstalled rangav.vscode-thunder-client-2.3.0
+2023-01-20 20:43:50.022 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.4810ff98-d65a-49d3-9f89-0139f2db7d25: vue.vscode-typescript-vue-plugin
+2023-01-20 20:43:50.024 [info] Renamed to /home/mustafaakil/.vscode/extensions/vue.vscode-typescript-vue-plugin-1.0.25
+2023-01-20 20:43:50.025 [info] Extracting completed. vue.vscode-typescript-vue-plugin
+2023-01-20 20:43:50.033 [info] Extension installed successfully: vue.vscode-typescript-vue-plugin
+2023-01-20 20:43:50.076 [info] Marked extension as uninstalled vue.vscode-typescript-vue-plugin-1.0.24
+2023-01-20 20:44:00.913 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.43029c08-3fee-4483-b3e2-67540b82e13a: esbenp.prettier-vscode
+2023-01-20 20:44:00.915 [info] Renamed to /home/mustafaakil/.vscode/extensions/esbenp.prettier-vscode-9.10.4
+2023-01-20 20:44:00.917 [info] Extracting completed. esbenp.prettier-vscode
+2023-01-20 20:44:00.924 [info] Extension installed successfully: esbenp.prettier-vscode
+2023-01-20 20:44:00.962 [info] Marked extension as uninstalled esbenp.prettier-vscode-9.10.3
+2023-01-20 20:44:29.972 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/resource/globalState {}
+2023-01-20 20:44:39.656 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.dacc6182-62ac-455d-a86a-28af2daa330e: prisma.prisma
+2023-01-20 20:44:39.658 [info] Renamed to /home/mustafaakil/.vscode/extensions/prisma.prisma-4.9.0
+2023-01-20 20:44:39.659 [info] Extracting completed. prisma.prisma
+2023-01-20 20:44:39.667 [info] Extension installed successfully: prisma.prisma
+2023-01-20 20:44:39.703 [info] Marked extension as uninstalled prisma.prisma-4.8.1
+2023-01-20 20:45:19.432 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.4a31f203-db11-4d0c-9011-df652c0aa6e5: github.copilot
+2023-01-20 20:45:19.434 [info] Renamed to /home/mustafaakil/.vscode/extensions/github.copilot-1.69.8032
+2023-01-20 20:45:19.435 [info] Extracting completed. github.copilot
+2023-01-20 20:45:19.443 [info] Extension installed successfully: github.copilot
+2023-01-20 20:45:19.485 [info] Marked extension as uninstalled github.copilot-1.65.7705
+2023-01-20 20:45:24.300 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-01-20 20:45:24.494 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-01-20 20:45:33.942 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.7d64e05a-a4a7-4ff5-8d8e-bc714972395a: ms-toolsai.jupyter-renderers
+2023-01-20 20:45:33.944 [info] Renamed to /home/mustafaakil/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.14
+2023-01-20 20:45:33.946 [info] Extracting completed. ms-toolsai.jupyter-renderers
+2023-01-20 20:45:33.952 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-01-20 20:45:33.998 [info] Marked extension as uninstalled ms-toolsai.jupyter-renderers-1.0.12
+2023-01-20 20:45:37.656 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.fa0d9d4c-c3b3-4002-b5d6-b9b40da71660: github.codespaces
+2023-01-20 20:45:37.660 [info] Renamed to /home/mustafaakil/.vscode/extensions/github.codespaces-1.13.6
+2023-01-20 20:45:37.662 [info] Extracting completed. github.codespaces
+2023-01-20 20:45:37.671 [info] Extension installed successfully: github.codespaces
+2023-01-20 20:45:37.717 [info] Marked extension as uninstalled github.codespaces-1.13.5
+2023-01-20 20:45:58.018 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-01-20 20:46:05.723 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.189ccbb3-f16a-425e-aa4a-e96c035e8823: ms-python.python
+2023-01-20 20:46:05.726 [info] Renamed to /home/mustafaakil/.vscode/extensions/ms-python.python-2022.20.2
+2023-01-20 20:46:05.729 [info] Extracting completed. ms-python.python
+2023-01-20 20:46:05.737 [info] Extension installed successfully: ms-python.python
+2023-01-20 20:46:05.737 [info] Finished waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2023-01-20 20:46:05.783 [info] Marked extension as uninstalled ms-python.python-2022.20.1
+2023-01-20 20:47:25.282 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.2ed7406f-4138-49b3-ad33-8d7e37d27fed: ms-python.vscode-pylance
+2023-01-20 20:47:25.296 [info] Renamed to /home/mustafaakil/.vscode/extensions/ms-python.vscode-pylance-2023.1.30
+2023-01-20 20:47:25.298 [info] Extracting completed. ms-python.vscode-pylance
+2023-01-20 20:47:25.308 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-01-20 20:47:25.351 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.1.10

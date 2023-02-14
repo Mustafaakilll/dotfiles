@@ -1,0 +1,52 @@
+{
+	"Initialize Dio": {
+		"prefix": "dio",
+		"body": [
+			"final _dio = Dio();",
+		],
+		"description": "initialize Dio"
+	},
+	"Magic number": {
+		"prefix": "magicNumber",
+		"body": "static const $1 = $2;",
+		"description": "Hwa Magic Number Create"
+	  },
+	  "Singleton Eager": {
+		"prefix": "Eager",
+		"body": [
+		  "class $1 {",
+		  	"static $1 _instace;",
+		  	"static $1 get instance {",
+		  		"_instace ??= $1._init();",
+		  		"return _instace;",
+		  	"}",
+		  	"$1._init();",
+		  "}"
+		],
+		"description": "Hwa Eager Class Create"
+	  },
+	  "Base Model ": {
+		"prefix": "baseModel",
+		"body": [
+			"import 'package:json_annotation/json_annotation.dart';",
+			"part '$1.g.dart';",
+			"",
+			"@JsonSerializable()",
+			"class $2 {",
+
+			  "factory $2.fromJson(Map<String, Object> json) {",
+			    "return _$$2FromJson(json);",
+			  "}",
+
+			  "Map<String, Object> toJson() {",
+			    "return _$$2ToJson(this);",
+			  "}",
+			"}",
+		]
+	  },
+	  "Debug Print":{
+		  "prefix": "dep",
+		  "body": "debugPrint($1);",
+		  "description": "Debug Print"
+	  }
+}

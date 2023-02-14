@@ -1,0 +1,44 @@
+Config { font            = "xft:Ubuntu:weight=bold:pixelsize=11:antialias=true:hinting=true"
+       , additionalFonts = [ "xft:Mononoki:pixelsize=11:antialias=true:hinting=true"
+                           , "xft:Font Awesome 6 Free Solid:pixelsize=12"
+                           , "xft:Font Awesome 6 Brands:pixelsize=12"
+                           ]
+       , bgColor      = "black"
+       , fgColor      = "grey"
+       , alpha        = 100
+       , position       = TopSize L 100 24
+       , border           = NoBorder
+       , borderColor      = "#252736"
+       , lowerOnStart = True
+       , hideOnStart  = False
+       , allDesktops  = True
+       , persistent   = True
+       , iconRoot     = ".xmonad/xpm/"  -- default: "."
+       , commands = [
+                        -- Cpu usage in percent
+                    Run Cpu ["-t", "<fn=2>\xf108</fn>  <total>%","-H","50","--high","red"] 3600
+                        -- Ram used number and percent
+                    , Run Memory ["-t", "<fn=2>\xf233</fn>  <used>M"] 3600
+                        -- Network
+                    , Run Network "wlan0" ["-L","0","-H","32","--normal","#008000","--high","darkgrey"] 10
+                        -- Echos a "battery" icon in front of the battery.
+                    , Run Com "echo" ["<fn=2>\xf242</fn>"] "baticon" 3600
+                        -- Battery
+                    , Run Battery [ "-t" , "<left>%" , "--Low", "10" , "--High", "80" , "--low", "red" , "--normal", "orange" , "--high", "green" , "--", "-o"	, "<left>% (<timeleft>)", "-O", "Charging", "-i", "Charged"] 50
+                        -- Volume
+                    , Run Com "pamixer" ["--get-volume"] "vol" 20
+                        -- Brigthness
+                    , Run Brightness ["-t", "Brigth: %<percent>", "--", "-D", "amdgpu_bl1"] 600
+                        -- Keyboard Layout
+                    , Run Kbd [("tr", "TR"), ("gb", "GB")]
+                        -- Time and date
+                    , Run Date "<fn=2>\xf073</fn>  %d %b %Y - (%H:%M) " "date" 3600
+                        -- Script that dynamically adjusts xmobar padding depending on number of trayer icons.
+                    , Run Com ".config/xmobar/trayer-padding-icon.sh" [] "trayerpad" 20
+                        -- Prints out the left side items such as workspaces, layout, etc.
+                    , Run UnsafeStdinReader
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = " <action=`rofi -show run -show-icons -sidebar-mode`><icon=haskell_20.xpm/> </action>   <fc=darkgrey>|</fc> %UnsafeStdinReader% } %date% {<fc=darkgrey><action=`alacritty -e htop`>%cpu%</action></fc>    <fc=darkgrey><action=`alacritty -e htop`>%memory%</action></fc>    <fc=darkgrey>%wlan0%</fc>    <fc=darkgrey>%baticon%  %battery%</fc>    <fc=darkgrey> VOL: %vol%</fc>    <fc=darkgrey>%bright%</fc>    <box type=Bottom width=0 mb=0 color=darkgrey><fc=darkgrey>%kbd%</fc></box> %trayerpad%"
+       }

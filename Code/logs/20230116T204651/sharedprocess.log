@@ -1,0 +1,30 @@
+2023-01-16 20:46:53.345 [info] Starting worker process with pid 23590 (type: fileWatcher, window: 1).
+2023-01-16 20:46:53.606 [info] Deleted from disk visualstudioexptteam.vscodeintellicode /home/mustafaakil/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.29
+2023-01-16 20:46:53.609 [info] Deleted from disk ms-python.vscode-pylance /home/mustafaakil/.vscode/extensions/ms-python.vscode-pylance-2022.12.20
+2023-01-16 20:46:53.609 [info] Deleted from disk prisma.prisma /home/mustafaakil/.vscode/extensions/prisma.prisma-4.8.0
+2023-01-16 20:47:04.554 [info] Getting Manifest... esbenp.prettier-vscode
+2023-01-16 20:47:04.556 [info] Getting Manifest... github.copilot
+2023-01-16 20:47:04.557 [info] Getting Manifest... ms-python.python
+2023-01-16 20:47:04.558 [info] Getting Manifest... ms-python.vscode-pylance
+2023-01-16 20:47:04.558 [info] Getting Manifest... vue.volar
+2023-01-16 20:47:04.559 [info] Getting Manifest... vue.vscode-typescript-vue-plugin
+2023-01-16 20:47:07.505 [info] Installing extension: esbenp.prettier-vscode
+2023-01-16 20:47:07.599 [info] Installing extension: github.copilot
+2023-01-16 20:47:07.646 [info] Installing extension: vue.vscode-typescript-vue-plugin
+2023-01-16 20:47:07.831 [info] Installing extension: vue.volar
+2023-01-16 20:47:08.152 [info] Installing extension: ms-python.vscode-pylance
+2023-01-16 20:47:08.164 [info] Installing extension: ms-python.python
+2023-01-16 20:47:10.388 [info] Getting Manifest... ms-python.python
+2023-01-16 20:47:10.474 [info] Waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2023-01-16 20:47:10.646 [info] Worker process with pid 23590 terminated normally (type: fileWatcher, window: 1).
+2023-01-16 20:47:12.219 [info] Starting worker process with pid 23864 (type: fileWatcher, window: 1).
+2023-01-16 20:47:20.363 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.e2f0d7a0-2260-4542-884e-2a4c4198765b: vue.vscode-typescript-vue-plugin
+2023-01-16 20:47:20.366 [info] Renamed to /home/mustafaakil/.vscode/extensions/vue.vscode-typescript-vue-plugin-1.0.24
+2023-01-16 20:47:20.367 [info] Extracting completed. vue.vscode-typescript-vue-plugin
+2023-01-16 20:47:20.376 [info] Extension installed successfully: vue.vscode-typescript-vue-plugin
+2023-01-16 20:47:20.405 [info] Marked extension as uninstalled vue.vscode-typescript-vue-plugin-1.0.23
+2023-01-16 20:47:41.078 [info] Extracted extension to /home/mustafaakil/.vscode/extensions/.1e0aa689-68df-4357-8976-e6a84e6eb020: vue.volar
+2023-01-16 20:47:41.082 [info] Renamed to /home/mustafaakil/.vscode/extensions/vue.volar-1.0.24-linux-x64
+2023-01-16 20:47:41.085 [info] Extracting completed. vue.volar
+2023-01-16 20:47:41.094 [info] Extension installed successfully: vue.volar
+2023-01-16 20:47:41.150 [info] Marked extension as uninstalled vue.volar-1.0.22-linux-x64
