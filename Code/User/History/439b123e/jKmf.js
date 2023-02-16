@@ -1,3 +1,0 @@
-class Sekil {
-  constructor() {}
-}

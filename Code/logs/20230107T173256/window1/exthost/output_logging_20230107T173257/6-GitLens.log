@@ -1,2 +1,0 @@
-[2023-01-07 14:38:10.533] [GIT  ] [/home/mustafaakil/Desktop/Dart] git diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- array/two_sum.dart • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c color.diff=false diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- array/two_sum.dart • bad revision '0000000000000000000000000000000000000000-' • 16 ms
-

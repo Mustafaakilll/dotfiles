@@ -1,4 +1,0 @@
-2023-01-25 13:26:03.796 [info] update#setState idle
-2023-01-25 13:26:04.594 [info] Starting extension host with pid 48708 (fork() took 8 ms).
-2023-01-25 13:26:07.610 [info] Waiting for extension host with pid 48708 to exit.
-2023-01-25 13:26:13.042 [info] Extension host with pid 48708 exited with code: 87, signal: null.

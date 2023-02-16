@@ -1,2 +1,0 @@
-[2023-01-25 10:26:18.292] [GIT  ] [/home/mustafaakil/Documents/projects/work/pau-flutter/pau_mobil] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 42 ms
-
