@@ -5,9 +5,6 @@ require("nvim-tree").setup {
   hijack_cursor = false,
   hijack_netrw = true,
   hijack_unnamed_buffer_when_opening = false,
-  ignore_buffer_on_setup = false,
-  open_on_setup = false,
-  open_on_setup_file = false,
   open_on_tab = false,
   sort_by = "name",
   root_dirs = {},
@@ -95,7 +92,6 @@ require("nvim-tree").setup {
     update_root = false,
     ignore_list = {},
   },
-  ignore_ft_on_setup = {},
   system_open = {
     cmd = "",
     args = {},
@@ -173,112 +169,8 @@ require("nvim-tree").setup {
       watcher = false,
     },
   },
-} -- END_DEFAULT_OPTS
-
-
-vim.g.nvim_tree_highlight_opened_files = 1
-vim.g.nvim_tree_show_icons = {
-  git = 1,
-  folders = 1,
-  files = 1,
-  folder_arrows = 1,
-}
-
-vim.g.nvim_tree_icons = {
-  default = '',
-  symlink = '',
-  git = {
-    unstaged = "✗",
-    staged = "✓",
-    unmerged = "",
-    renamed = "➜",
-    untracked = "★",
-    deleted = "",
-  },
-  folder = {
-    arrow_open = "",
-    arrow_closed = "",
-    default = "",
-    open = "",
-    empty = "",
-    empty_open = "",
-    symlink = "",
-    symlink_open = "",
-  },
-  lsp = {
-    hint = "",
-    info = "",
-    warning = "",
-    error = "",
-  }
 }
 
 
--- require'nvim-tree'.setup {
---       disable_netrw       = true,
---       hijack_netrw        = true,
---       open_on_setup       = true,
---       ignore_ft_on_setup  = {},
---       -- auto_close          = false,
---       open_on_tab         = false,
---       -- update_to_buf_dir   = {
---       --   enable = true,
---       --   auto_open = true,
---       -- },
---       hijack_cursor       = false,
---       update_cwd          = true,
---       update_focused_file = {
---         enable      = false,
---         update_cwd  = false,
---         ignore_list = {}
---       },
---       system_open = {
---         cmd  = nil,
---         args = {}
---       },
---       diagnostics         = {
---         enable = true,
---         show_on_dirs = true,
---         icons = {
---           hint = "",
---           info = "",
---           warning = "",
---           error = "",
---         }
---       },
---       git = {
---         enable = true,
---         ignore = true,
---       },
---       view = {
---         hide_root_folder = false,
---         width = 30,
---         height = 30,
---         side = 'left',
---         -- auto_resize = true,
---         number = false,
---         relativenumber = false,
---         signcolumn = "yes",
---         mappings = {
---           custom_only = false,
---           list = {}
---         }
---       },
---       filters = {
---         dotfiles = true,
---         custom = {}
---       },
---       trash = {
---         cmd = "trash",
---         require_confirm = true,
---       },
---       actions = {
---         change_dir = {
---           global = false,
---         },
---         open_file = {
---           quit_on_open = false,
---         },
---       }
---     }
---
+-- Nvim Tree
+vim.keymap.set('n','<C-p>',':NvimTreeToggle<CR>')
