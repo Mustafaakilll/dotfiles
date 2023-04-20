@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+setbg_dir="${HOME}/.local/share/wallpapers"
+
+setbg() {
+    swaybg -m "stretch" -i "$1"
+}
+
+MENU="wofi --show dmenu --insensitive --prompt"
+
+main() {
+    choice="$(printf "Set\nRandom\nExit" | ${MENU} "What would you like to do?")"
+    case "$choice" in
+    "Set")
+        # shellcheck disable=SC2154
+            # Read each line printed to stdin, imv behaves weird
+            # We also ignore a shellcheck issue because it's a bug
+            # shellcheck disable=SC2154
+            imv "${setbg_dir}" | while read -r LINE; do
+                pidof "swaybg" && killall "swaybg"
+                setbg "$LINE" & # Sets the wallpaper and frees it from the process
+                notify-send "Wallpaper has been updated" "$LINE is the current wallpaper, edit your window manager config if you would like this to persist on reboot"
+            done
+        ;;
+    "Random")
+        valid_paper="No"
+        until [ "$valid_paper" = "Yes" ]; do
+            pidof "swaybg" && killall "swaybg"
+            wallpaper="$(find "${setbg_dir}" -type f | shuf -n 1)"
+            setbg "$wallpaper" &
+            echo "$wallpaper" >"$HOME/.local/share/wallpapers"
+            valid_paper="$(printf "Yes\nNo" | ${MENU} "Do you like the new wallpaper?")"
+        done
+        ;;
+    "Exit") echo "Program terminated" && exit 1 ;;
+    *) err "Invalid choice" ;;
+    esac
+}
+
+noOpt=1
+while getopts "dfrh" arg 2>/dev/null; do
+        [[ "${BASH_SOURCE[0]}" == "${0}" ]] && main "@"
+    noOpt=0
+done
+
+[ $noOpt = 1 ] && MENU=${MENU} && [[ "${BASH_SOURCE[0]}" == "${0}" ]] && main "$@"
