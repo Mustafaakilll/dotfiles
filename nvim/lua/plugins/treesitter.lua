@@ -1,5 +1,11 @@
 return {
-  { "nvim-treesitter/nvim-treesitter" , build = ":TSUpdate" },
+  {
+    "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
+    config = function()
+      require('plugins.config.treesitter')
+    end
+  },
   "nvim-treesitter/playground",
   "nvim-treesitter/nvim-treesitter-textobjects",
   "JoosepAlviste/nvim-ts-context-commentstring",
