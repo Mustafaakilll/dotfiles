@@ -1,0 +1,70 @@
+filetype plugin on
+filetype indent on
+syntax enable
+
+" VIM SET CONFIG
+let mapleader = ' '
+set noerrorbells
+set ignorecase
+set incsearch
+set smartcase
+set nohlsearch
+set clipboard=unnamed
+set clipboard+=unnamedplus
+set scrolloff=8
+set sidescrolloff=8
+set incsearch
+set showmode
+set showcmd
+set number
+set relativenumber
+set history
+set matchpairs
+set cmdheight=2
+set backspace=eol,start,indent
+set whichwrap+=<,>,h,l
+set nobackup
+set nowritebackup
+set shiftwidth=4
+set tabstop=4
+set smarttab
+set autoindent
+set smartindent
+
+
+" PLUGINS
+set commentary
+set surround
+set NERDTree
+set highlightedyank
+set argtextobj
+
+
+let g:highlightedyank_highlight_color = "rgba(160, 160, 160, 155)"
+let g:highlightedyank_highlight_duration = "400"
+
+
+" IDEAVIM SET CONFIG
+set ideajoin
+set ideastatusicon=gray
+set ideawrite=all
+set clipboard+=ideaput
+
+
+" MAP ACTIONS
+map <leader>ca <Action>(ShowIntentionActions)
+nmap gd <Action>(GotoDeclaration)
+nmap gi <Action>(GotoImplementation)
+nmap gr <Action>(ShowUsages)
+nmap gD <Action>(GotoTypeDeclaration)
+nmap % <Action>(EditorMatchBrace)
+nmap <leader>rn <Action>(RenameElement)
+nmap <leader>g <Action>(Generate)
+vmap gb <Action>(CommentByBlockComment)
+nmap <leader>ff <Action>(ReformatCode)
+nmap <leader>ew <Action>(Flutter.ExtractWidget)
+nmap <C-p> <Action>(ActivateProjectToolWindow)
+nmap Y y$
+map ]e <Action>(GotoNextError)
+map [e <Action>(GotoPreviousError)
+nmap <leader>bp <Action>(ToggleLineBreakpoint)
