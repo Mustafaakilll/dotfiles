@@ -1,0 +1,39 @@
+right_format = """
+$battery\
+$time\
+"""
+
+format = """$all"""
+
+[battery]
+full_symbol = '🔋 '
+charging_symbol = '⚡️ '
+discharging_symbol = '💀 '
+format = '[$symbol$percentage]($style) '
+
+
+[directory]
+style = "bold cyan"
+truncate_to_repo = false
+truncation_length = 0
+fish_style_pwd_dir_length = 1
+
+[hostname]
+ssh_only = true
+format = '[$ssh_symbol](bold blue) on [$hostname](bold red) '
+disabled = false
+trim_at = ''
+
+[username]
+style_user = 'red bold'
+style_root = 'black bold'
+format = '[$user]($style) '
+disabled = false
+show_always = true
+
+[time]
+disabled = false
+format = '$time($style) '
+# time_format = '%T'
+use_12hr = true
+
