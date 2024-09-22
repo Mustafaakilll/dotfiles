@@ -1,10 +1,13 @@
-vim.opt_local.conceallevel = 2
-vim.opt_local.wrap = true
-vim.opt_local.colorcolumn = ""
+local opt = vim.opt_local
 
-vim.opt_local.expandtab = true
-vim.opt_local.shiftwidth = 2
-vim.opt_local.tabstop = 2
-vim.opt_local.smarttab = true
+opt.conceallevel = 2
+opt.wrap = true
+opt.colorcolumn = ""
 
-vim.opt_local.spell = true
+opt.expandtab = true
+opt.shiftwidth = 2
+opt.tabstop = 2
+opt.smarttab = true
+
+opt.spelllang = "en_us"
+opt.spell = true

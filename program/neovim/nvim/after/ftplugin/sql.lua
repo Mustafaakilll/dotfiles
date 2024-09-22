@@ -1,9 +1,9 @@
-local set = vim.opt_local
+local opt = vim.opt_local
 
-set.commentstring = "-- %s"
+opt.commentstring = "-- %s"
 
-set.relativenumber = false
-set.expandtab = true
-set.tabstop = 2
-set.softtabstop = 2
-set.shiftwidth = 2
+opt.relativenumber = false
+opt.expandtab = true
+opt.tabstop = 2
+opt.softtabstop = 2
+opt.shiftwidth = 2

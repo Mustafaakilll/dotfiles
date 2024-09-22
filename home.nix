@@ -58,7 +58,6 @@
     killall
     fzf
     tldr
-    atuin
     nerdfonts
     pamixer
 
@@ -151,6 +150,7 @@
     graphviz
     jetbrains.goland
     jetbrains.datagrip
+    redisinsight
     dbeaver-bin
     github-copilot-intellij-agent
     jetbrains.idea-ultimate
@@ -236,7 +236,7 @@
     kdePackages.kate
     okteta
 
-    telegram-desktop
+    # telegram-desktop # Moved to flatpak
 
     flutter
     android-studio
@@ -401,3 +401,6 @@
   #
 
 }
+
+
+

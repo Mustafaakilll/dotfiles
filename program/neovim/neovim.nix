@@ -16,7 +16,11 @@
   };
 
   home.file.".config/nvim/init.lua".source = ./nvim/init.lua;
+  home.file.".config/nvim/plugin".source = ./nvim/plugin;
   home.file.".config/nvim/lua".source = ./nvim/lua;
   home.file.".config/nvim/after".source = ./nvim/after;
-  home.file.".config/nvim/snippets".source = ./nvim/after;
+  # home.file.".config/nvim/spell".source = ./nvim/spell;
+  # home.file.".config/nvim/snippets".source = ./nvim/after;
 }
+
+
